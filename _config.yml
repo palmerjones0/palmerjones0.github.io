@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "Palmer Jones"
   avatar : "/assets/images/PJones_profile_pic.jpeg"
-  bio    : "I'm a Solutions Architect and Consultant specializing in B2B Supply Chain software and Applied Artificial Intelligence.\ Exploring the intersections of sports analytics, data science, maps, and AI in bite-sized case studies."
+  bio    : "I'm a Solutions Architect and Consultant specializing in B2B Supply Chain  software and Applied <br> Artificial Intelligence.\ Exploring the intersections<br /> of sports analytics, data science, maps, and AI in bite-sized case studies."
   links:
     - label: "Bio Page"
       icon: "fas fa-fw fa-link"
