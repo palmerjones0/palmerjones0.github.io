@@ -62,7 +62,7 @@ author:
   avatar : "/assets/images/PJones_profile_pic.jpeg"
   bio    : "My awesome biography constrained to a sentence or two goes here."
   links:
-    - label: "Website"
+    - label: "Bio Page"
       icon: "fas fa-fw fa-link"
       url: "https://"
     - label: "GitHub"
