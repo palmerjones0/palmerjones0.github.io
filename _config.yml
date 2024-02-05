@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "Palmer Jones"
   avatar : "/assets/images/PJones_profile_pic.jpeg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "I'm a Solutions Architect and Consultant specializing in B2B Supply Chain software and Applied Artificial Intelligence. \n Test"
   links:
     - label: "Bio Page"
       icon: "fas fa-fw fa-link"
