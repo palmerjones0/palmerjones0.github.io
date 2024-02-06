@@ -1,8 +1,20 @@
 ---
 permalink: /about/
-title: "About"
+title: "About the Site"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+## A Word About This Site
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+Hi, I’m Palmer Jones. Thanks for taking the time to visit my site, I hope that you find something that is insightful, or at least interesting!
+
+My desire is to create a space for practicing hard skills such as data science, scientific research, and problem-solving, with an emphasis on producing easily-digestible results for the largest possible audience. Inspired by my background in consulting, the posts on this site are presented as concise case studies about topics that interest me.
+
+Continue reading my bio below or explore posts by category, by tag, or chronologically.
+
+## My Bio
+
+Here I put some of my bio
+
+More info
+
+yadayada
