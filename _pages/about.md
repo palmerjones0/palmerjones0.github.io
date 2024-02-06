@@ -3,11 +3,9 @@ permalink: /about/
 title: "About the Site"
 ---
 
-## A Word About This Site
+Hi, I’m Palmer Jones. **Thanks for taking the time to visit my site,** I hope that you find something that is insightful, or at least interesting!
 
-Hi, I’m Palmer Jones. Thanks for taking the time to visit my site, I hope that you find something that is insightful, or at least interesting!
-
-My desire is to create a space for practicing hard skills such as data science, scientific research, and problem-solving, with an emphasis on producing easily-digestible results for the largest possible audience. Inspired by my background in consulting, the posts on this site are presented as concise case studies about topics that interest me.
+My desire is to create a space for practicing hard skills such as data science, scientific research, and problem-solving, _with an emphasis on producing easily-digestible results for the largest possible audience._ Inspired by my background in consulting, the posts on this site are presented as _concise_ case studies about topics that interest me.
 
 Continue reading my bio below or explore posts by category, by tag, or chronologically.
 
