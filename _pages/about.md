@@ -9,7 +9,7 @@ My desire is to create a space for practicing hard skills such as data science, 
 
 Continue reading my bio below or explore posts by [category](/categories/), by [tag](/tags/), or [chronologically](/posts/).
 
-## My Bio
+## My Industry Experience
 
 As the sidebar says, I’m a Solutions Architect and Consultant specializing in B2B Supply Chain software and Applied Artificial Intelligence.
 
@@ -17,4 +17,18 @@ I started my Supply Chain career in **Labor Management Consulting** implementing
 
 Working with our **in-house Labor Management System** also afforded me the opportunity to take my passion for programming beyond Excel by working on the technical side of the platform as an **Application System Administrator**. As our emerging solution gained traction with clients with larger facilities, there arose a **pressing need to overhaul our travel mapping algorithm** to support sites with thousands of storage locations. After hearing about the growing issue from my fellow associates onsite at a new client's very large facility, I **proactively designed and built a solution** that incorporated modern pathfinding algorithms while **maintaining compatibility** with our legacy user interface. The result was an algorithm that produced more accurate travel calculations **over 1000 times faster** than our existing solution. Bundling the solution into one simple html file made it easy for our associates to use and available when they were offline, a frequent occurance while travelling or at a rural client site. An added benefit of this new logic is it allowed calculations to happen "on the fly" which drastically reduced the storage requirements needed for our servers. This role also allowed me to take **ownership of our training process for new teammates** that joined our team. Not only did this give me the opportunity to practice effective teaching techniques and technical documentation, it also allowed me to **form a connection with every member of our team**. I took great pride in being one of the first people others would turn to if they had a question, whether related to my expertise with our software or not. *If I don't know the answer, I'll certainly find out who does!* Having this close connection was especially important when supporting our largest customer, a **Fortune 50 beverage distributor** with over 300 North American locations using our software. My experience with this in-house software served as an amazing learning experience and it fueled my desire to pursue my next opportunity outside of consulting with a platform-focused supply chain company.
 
-Solution Architect here
+Solution Architect paragraph here
+-wearing many hats
+-sales engineer
+-demos
+-dangerous with implementing
+-high communication
+-AI project
+
+Add a TLDR resume-syle
+
+## My Education
+-education here
+
+## About Me
+-personal stuff here
