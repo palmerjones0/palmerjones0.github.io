@@ -11,6 +11,20 @@ My desire is to create a space for practicing hard skills such as data science, 
 Continue reading my bio below or explore posts by [category](/categories/), by [tag](/tags/), or [chronologically](/posts/).
 
 ## My Industry Experience
+
+<h3>Solutions Architect</h3>
+<details>
+  <summary>enVista, LLC <i>2021-2023</i></summary>
+
+-wearing many hats
+-sales engineer
+-demos
+-dangerous with implementing
+-high communication
+-AI project
+  
+</details>
+
 <h3>Application Systems Administrator</h3>
 <details>
   <summary>enVista, LLC <i>2021-2023</i></summary>
@@ -25,19 +39,7 @@ Working with our <b>in-house Labor Management System</b> also afforded me the op
 
 I started my Supply Chain career in <b>Labor Management Consulting</b> implementing both in-house and third-party solutions for clients. I found LM to be a great sector for early   career development for a few reasons. Since labor accounts for such a large portion or most facility's operating costs, <b>small increases</b> in effeciency brought on by an aspiring engineer can have an <b>outsized impact</b> on the bottom-line. Given the extensive variability in job functions for floor associates between companies, finding solutions that increase efficiency require aptitudes for <b>creativity</b> and <b>iterative problem-solving</b>. Maybe most importantly, working in Labor Management requires <b>communicating with all levels of the corporate structure</b>: from floor associates to VPs and above. I often found that the best ideas came from the floor associaties; my role was to simply <b>act as a voice</b> for them and to find the overlap between their ideas and the constraints of the Warehouse Management System or Enterprise Resource Planning System. Additionally, I greatly enjoyed working as a consultant because it afforded me the opporunity see a myriad of different operating environments, giving me experiences with different industries. <i>Nothing replaces seeing an operation with your own two eyes!</i>
 
-</details><br><br>
-
-
-
-Solution Architect paragraph here
--wearing many hats
--sales engineer
--demos
--dangerous with implementing
--high communication
--AI project
-
-Add a TLDR resume-syle
+</details><br>
 
 ## My Education
 -education here
