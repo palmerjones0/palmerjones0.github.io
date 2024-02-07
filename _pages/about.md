@@ -15,7 +15,7 @@ As the sidebar says, I’m a Solutions Architect and Consultant specializing in 
 
 <details>
   <summary>
-    <h3>Sr. Labor Management Consulant</h3>
+    <h3>Sr. Labor Management Consulant</h3><br>
     <i>2019-2023</i>
   </summary>
   
