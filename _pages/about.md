@@ -15,7 +15,6 @@ Continue reading my bio below or explore posts by [category](/categories/), by [
 As the sidebar says, I’m a Solutions Architect and Consultant specializing in B2B Supply Chain software and Applied Artificial Intelligence.
 
 <h3>Sr. Labor Management Consulant</h3>
-
 <details>
   <summary>enVista, LLC <i>2019-2021</i></summary>
 
