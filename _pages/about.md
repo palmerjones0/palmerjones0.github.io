@@ -48,7 +48,7 @@ I started my Supply Chain career in <b>Labor Management Consulting</b> implement
 UNC Charlotte (distance) *2022-2023*
 
 ### B.S. Industrial Engineering
-Purdue Univeristy (West Lafayette, IN) *2015-2019*
+Purdue Univeristy (West Lafayette, IN) *2015-2019*\
 Minor: Management
 
 ## About Me
