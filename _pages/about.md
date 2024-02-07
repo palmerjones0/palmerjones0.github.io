@@ -10,7 +10,7 @@ My desire is to create a space for practicing hard skills such as data science, 
 
 Continue reading my bio below or explore posts by [category](/categories/), by [tag](/tags/), or [chronologically](/posts/).
 
-## My Industry Experience
+# My Industry Experience
 
 As the sidebar says, I’m a Solutions Architect and Consultant specializing in B2B Supply Chain software and Applied Artificial Intelligence.
 
