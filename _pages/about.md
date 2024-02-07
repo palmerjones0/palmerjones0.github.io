@@ -12,6 +12,7 @@ Continue reading my bio below or explore posts by [category](/categories/), by [
 
 <br>
 
+# About the Author
 ## My Industry Experience
 
 <h3>Solutions Architect</h3>
