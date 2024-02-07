@@ -1,6 +1,7 @@
 ---
 permalink: /about/
 title: "About the Site"
+classes: wide
 ---
 
 Hi, I’m Palmer Jones. **Thanks for taking the time to visit my site,** I hope that you find something that is insightful, or at least interesting!
