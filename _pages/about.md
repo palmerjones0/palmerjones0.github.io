@@ -10,11 +10,13 @@ My desire is to create a space for practicing hard skills such as data science, 
 
 Continue reading my bio below or explore posts by [category](/categories/), by [tag](/tags/), or [chronologically](/posts/).
 
+<br>
+
 ## My Industry Experience
 
 <h3>Solutions Architect</h3>
 <details>
-  <summary>enVista, LLC <i>2021-2023</i></summary>
+  <summary>eLogistiVIEW <i>2023-Present</i></summary>
 
 -wearing many hats
 -sales engineer
