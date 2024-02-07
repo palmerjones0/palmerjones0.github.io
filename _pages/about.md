@@ -11,7 +11,6 @@ My desire is to create a space for practicing hard skills such as data science, 
 Continue reading my bio below or explore posts by [category](/categories/), by [tag](/tags/), or [chronologically](/posts/).
 
 ## My Industry Experience
-
 <h3>Application Systems Administrator</h3>
 <details>
   <summary>enVista, LLC <i>2021-2023</i></summary>
