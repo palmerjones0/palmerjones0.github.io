@@ -10,8 +10,6 @@ My desire is to create a space for practicing hard skills such as data science, 
 
 Continue reading my bio below or explore posts by [category](/categories/), by [tag](/tags/), or [chronologically](/posts/).
 
-<br>
-
 # About the Author
 ## My Industry Experience
 
