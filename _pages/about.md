@@ -1,6 +1,6 @@
 ---
 permalink: /about/
-title: "About the Site"
+title: "About"
 classes: wide
 ---
 
@@ -48,4 +48,4 @@ Purdue Univeristy (West Lafayette, IN) *2015-2019*\
 Minor: Management
 
 ## About Me
--info goes here
+Living in the Research Triangle region of North Carolina has provided me plentiful opportunities to pursue some of my favorite hobbies. I enjoy taking trips outdoors to the mountains and the beach, and if I'm really seeking a challenge I've been known to participate in triathlons! I'm also an avid college sports fan, one of my goals is to go to a home football and basketball game at North Carolina, NC State, and Duke. If you'd like to reach out, I check my [LinkedIn](https://www.linkedin.com/in/palmer-jones-234160127/) messages on roughly a weekly basis. Let me know if you find something on the website that you found interesting!
