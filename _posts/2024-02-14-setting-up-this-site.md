@@ -24,8 +24,7 @@ This site is a personal project that I don’t expect to produce any income, so 
 
 ## My Custom Domain
 While hosting on GitHub Pages is free, your domain name will be `username.github.io` unless you acquire and connect a custom domain name. For me, I really wanted to have a custom `.com` domain for the site. I researched domain name providers and settled on PorkBun, where I was able to purchase the palmercjones.com domain on a multi-year contract for an average cost of just under $1 per month. I have had a great experience with PorkBun thus far, and they made the process of connecting my domain to my GitHub Pages site incredibly easy. I’ll go into more detail on how to configure your domain further down in this post, but if you have decided to stick to the default GitHub Pages domain then you can skip the steps about configuring the host.
-<br>
-*Custom domain cost per month: <$1*
+>Custom domain cost per month: <$1
 
 ## Getting Started
 Follow GitHub Pages instructions
