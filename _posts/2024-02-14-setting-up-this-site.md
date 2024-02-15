@@ -13,26 +13,24 @@ tags:
   - PorkBun
 date: 2024-02-14 10:00:00
 search: true
+toc:true
 ---
 
-All children, except one, grow up. They soon know that they will grow up, and the way Wendy knew was this. One day when she was two years old she was playing in a garden, and she plucked another flower and ran with it to her mother. I suppose she must have looked rather delightful, for Mrs. Darling put her hand to her heart and cried, "Oh, why can't you remain like this for ever!" This was all that passed between them on the subject, but henceforth Wendy knew that she must grow up. You always know after you are two. Two is the beginning of the end.
+I wanted to use the first post as a way to share how I set up this site. I was able to host this static site for an average cost less than $1/month.
 
-Mrs. Darling first heard of Peter when she was tidying up her children's minds. It is the nightly custom of every good mother after her children are asleep to rummage in their minds and put things straight for next morning, repacking into their proper places the many articles that have wandered during the day.
+## Choosing a Hosting Platform
+This site is a personal project that I don’t expect to produce any income, so my emphasis first and foremost was to choose a hosting option that is low-cost. From my research, the two main contenders in this category are GitHub Pages and WordPress. I decided to use GitHub Pages because it is completely free to host a public site, whereas it seemed like anything beyond the most basic WordPress site would incur a monthly fee in the $3-$30 range. Also, I think GitHub Pages is much better suited for building coding skills and showing off programming projects, and overall allows more control while still being simple enough for a novice like me. I’ll go into more detail later, but the main skills you’ll need to get up and running are a basic familiarity with git and some general knowledge on formatting with Markdown. GitHub Pages will translate your Markdown formatting into static html via a simple tool called Jekyll. More on that later.
+*Hosting cost per month on GitHub Pages: $0*
 
-<!--more-->
+## My Custom Domain
+While hosting on GitHub Pages is free, your domain name will be INSERT HERE unless you acquire and connect a custom .com domain name. For me, I really wanted to have a custom domain for the site. I researched domain name providers and settled on PorkBun, where I was able to purchase the palmercjones.com domain on a multi-year contract for an average cost of just under $1 per month. I have had a great experience with PorkBun thus far, and they made the process of connecting my domain to my GitHub Pages site incredibly easy. I’ll go into more detail on how to configure your domain further down in this post, but if you have decided to stick to the default GitHub Pages domain then you can skip the steps about configuring the host.
+*Custom domain cost per month: <$1*
 
-This post has a manual excerpt `<!--more-->` set after the second paragraph. The following YAML Front Matter has also be applied:
-
-```yaml
-excerpt_separator: "<!--more-->"
-```
-
-If you could keep awake (but of course you can't) you would see your own mother doing this, and you would find it very interesting to watch her. It is quite like tidying up drawers. You would see her on her knees, I expect, lingering humorously over some of your contents, wondering where on earth you had picked this thing up, making discoveries sweet and not so sweet, pressing this to her cheek as if it were as nice as a kitten, and hurriedly stowing that out of sight. When you wake in the morning, the naughtiness and evil passions with which you went to bed have been folded up small and placed at the bottom of your mind and on the top, beautifully aired, are spread out your prettier thoughts, ready for you to put on.
-
-I don't know whether you have ever seen a map of a person's mind. Doctors sometimes draw maps of other parts of you, and your own map can become intensely interesting, but catch them trying to draw a map of a child's mind, which is not only confused, but keeps going round all the time. There are zigzag lines on it, just like your temperature on a card, and these are probably roads in the island, for the Neverland is always more or less an island, with astonishing splashes of colour here and there, and coral reefs and rakish-looking craft in the offing, and savages and lonely lairs, and gnomes who are mostly tailors, and caves through which a river runs, and princes with six elder brothers, and a hut fast going to decay, and one very small old lady with a hooked nose. It would be an easy map if that were all, but there is also first day at school, religion, fathers, the round pond, needle-work, murders, hangings, verbs that take the dative, chocolate pudding day, getting into braces, say ninety-nine, three-pence for pulling out your tooth yourself, and so on, and either these are part of the island or they are another map showing through, and it is all rather confusing, especially as nothing will stand still.
-
-Of course the Neverlands vary a good deal. John's, for instance, had a lagoon with flamingoes flying over it at which John was shooting, while Michael, who was very small, had a flamingo with lagoons flying over it. John lived in a boat turned upside down on the sands, Michael in a wigwam, Wendy in a house of leaves deftly sewn together. John had no friends, Michael had friends at night, Wendy had a pet wolf forsaken by its parents, but on the whole the Neverlands have a family resemblance, and if they stood still in a row you could say of them that they have each other's nose, and so forth. On these magic shores children at play are for ever beaching their coracles [simple boat]. We too have been there; we can still hear the sound of the surf, though we shall land no more.
-
-Of all delectable islands the Neverland is the snuggest and most compact, not large and sprawly, you know, with tedious distances between one adventure and another, but nicely crammed. When you play at it by day with the chairs and table-cloth, it is not in the least alarming, but in the two minutes before you go to sleep it becomes very real. That is why there are night-lights.
-
-Occasionally in her travels through her children's minds Mrs. Darling found things she could not understand, and of these quite the most perplexing was the word Peter. She knew of no Peter, and yet he was here and there in John and Michael's minds, while Wendy's began to be scrawled all over with him. The name stood out in bolder letters than any of the other words, and as Mrs. Darling gazed she felt that it had an oddly cocky appearance.
+## Getting Started
+Follow GitHub Pages instructions
+Copy Minimal Mistakes theme sample repo
+Use a different Minimal Mistakes theme
+Configure CNAME for domain with PorkBun
+Customize side bar
+Customize about page
+Write your first post
