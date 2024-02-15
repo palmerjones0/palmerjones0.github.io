@@ -32,24 +32,20 @@ Follow these steps to get your website up and running.
 ### Get Your Website Up and Running
 1. Create a GitHub account
 2. Follow [these instructions](https://docs.github.com/en/pages/quickstart) from GitHub on how to set up a pages site
-3. Copy the Minimal Mistakes sample repository
-
+I recommend also following the instructions to secure your site with `https`.
+3. Copy the Minimal Mistakes [sample template](https://github.com/mmistakes/mm-github-pages-starter) repository to your repository
 Congrats! You now have a static site accessable from `username.github.io`. If you wish to configure a custom domain, follow the instructions below.
 
 ### Add a Custom Domain
-4. Customize your Minimal Mistakes theme
-5. Customize your sidebar
-
+1. Purchase a domain from a domain hosting site, I used [PorkBun](https://porkbun.com)
+2. Follow [these instructions](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages) to get your domain verified and configured
+The key step here is configuring your `CNAME` file to point to your domain, and making sure you follow all of the instructions to make sure your domain is secure. I am not an expert in the field of domain name ownership!
 
 ### Customize Your Site
-
+1. Customize your Minimal Mistakes theme using one of the provided [skins](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#skin)
+2. Design your sidebar by editing your `_config.yml` file
+3. Create your About page, here's [mine](/about/) for inspiration
+Now you're ready to write your first post! You'll find templates to go by in your `_posts` folder. Good luck!
 
 ## Helpful Resources
-
-Follow GitHub Pages instructions
-Copy Minimal Mistakes theme sample repo
-Use a different Minimal Mistakes theme
-Configure CNAME for domain with PorkBun
-Customize side bar
-Customize about page
-Write your first post
+* point 1
