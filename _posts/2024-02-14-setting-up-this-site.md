@@ -13,7 +13,7 @@ tags:
   - PorkBun
 date: 2024-02-14 10:00:00
 search: true
-toc:true
+toc: true
 ---
 
 I wanted to use the first post as a way to share how I set up this site. I was able to host this static site for an average cost less than $1/month.
