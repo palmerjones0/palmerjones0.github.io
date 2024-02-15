@@ -1,5 +1,5 @@
 ---
-title: "Setting up this site"
+title: "Setting Up This Site"
 excerpt_separator: "<!--more-->"
 categories:
   - tutorial
