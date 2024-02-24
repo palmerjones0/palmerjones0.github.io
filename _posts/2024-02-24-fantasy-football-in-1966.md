@@ -52,9 +52,9 @@ Quick note, my dataset doesn’t differentiate between fumbles lost vs recovered
 
 ### Side-note About NFL vs AFL Scoring
 While preparing the research for this post, I came across a couple wrinkles in the scoring between the NFL and AFL. First off, while the **NFL didn’t implement the 2-point conversion until the 1994 season**, it had been in use by the AFL from their conception in 1960 up until their completed merger with the NFL in 1970. This gives a slight edge to the 9 AFL players who successfully completed a 2-point conversion in 1966, including one scored by… *Tony Romeo?* That’s another rabbit-hole for this Cowboys fan to dive down later.
-<br>
+<br><br>
 Another quirk of the complete separation between the two leagues in 1966 is that the AFL only had 9 teams compared to the 15 teams of the NFL (the NFL and AFL each added an expansion team in 1966, the Atlanta Falcons and Miami Dolphins, respectively). This means that although every team played 14 games over a 16 week season, the **AFL teams had more repeat matchups**. I’m not sure if this would have an impact on scoring.
-<br>
+<br><br>
 Lastly, it’s worth noting that the upstart AFL had a reputation for **outsized spending on star players** instead of more evenly spending across the entire team. I believe this could result in those star AFL players having more statistical success given they played against worse overall competition throughout the season, although this premise is difficult to test given that there was only one cross-league matchup the entire year! Still, I’d be surprised if our starting lineup doesn’t end up featuring a QB and at least 1 WR from the AFL.
 
 ### Performing the Analysis
@@ -63,7 +63,7 @@ I used stats provided by [pro-football-reference.com](https://www.pro-football-r
 <details>
   <summary><i>FantasyFootball1996.ipynb</i></summary>
 
-```python
+<pre><code>
 pip install pandas
 
 import pandas as pd
@@ -161,7 +161,7 @@ NFL_TEs = NFL_Player.query("Pos == 'TE'").sort_values(by=['Score'], ascending=Fa
 print(NFL_TEs)
 NFL_TEs.to_csv('TEs_1966.csv', index=False)
 ```
-</details>
+</code></pre>
 
 
 ## Results
