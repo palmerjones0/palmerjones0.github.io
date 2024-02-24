@@ -2,12 +2,12 @@
 title: "What If? Fantasy Football in 1966"
 excerpt_separator: "<!--more-->"
 categories:
-  - What If?
+  - WhatIf
   - blog
   - sports
 tags:
   - sports
-  - fantasy football
+  - fantasyfootball
   - football
   - Python
   - pandas
