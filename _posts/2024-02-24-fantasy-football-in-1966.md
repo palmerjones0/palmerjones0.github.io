@@ -58,8 +58,7 @@ Lastly, it’s worth noting that the upstart AFL had a reputation for outsized s
 I used stats provided by pro-football-reference.com to perform this analysis. The website allows you to export the season statistics by relevant area (passing, rushing, etc.) which makes it fairly straightforward to use in python. There was a bit of pre-processing required on the data,  but this was all easy to do in python using the pandas package. I ended up doing all of the heavy lifting in a Jupyter notebook, and saving the results for each position as csv files. Take a look at the notebook with markdown comments here, or use the dropdown below to look at the python block (I removed the markdown sections because they don’t render well on this page). I’ll give a rundown of the results, but if you want to take a look for yourself or use this for your own analysis you can find the csv files on my github page.
 
 ```python
-{
- pip install pandas
+pip install pandas
 
 import pandas as pd
 from functools import reduce #also need this tool for joining more than 2 dataframes at a time
@@ -155,7 +154,6 @@ NFL_WRs.to_csv('WRs_1966.csv', index=False)
 NFL_TEs = NFL_Player.query("Pos == 'TE'").sort_values(by=['Score'], ascending=False)
 print(NFL_TEs)
 NFL_TEs.to_csv('TEs_1966.csv', index=False)
-}
 ```
 
 
