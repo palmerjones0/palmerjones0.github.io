@@ -2,7 +2,6 @@
 title: "What If? Fantasy Football in 1966"
 excerpt_separator: "<!--more-->"
 categories:
-  - What If\?
   - blog
   - sports
 tags:
@@ -14,6 +13,7 @@ tags:
   - jupyter notebook
   - analytics
   - history
+  - What If?
 date: 2024-02-15 10:00:00 EST
 timezone: America/New_York
 search: true
