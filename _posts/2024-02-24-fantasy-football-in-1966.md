@@ -160,8 +160,9 @@ NFL_WRs.to_csv('WRs_1966.csv', index=False)
 NFL_TEs = NFL_Player.query("Pos == 'TE'").sort_values(by=['Score'], ascending=False)
 print(NFL_TEs)
 NFL_TEs.to_csv('TEs_1966.csv', index=False)
-```
+
 </code></pre>
+</details>
 
 
 ## Results
