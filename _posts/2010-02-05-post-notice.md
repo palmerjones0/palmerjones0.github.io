@@ -5,6 +5,8 @@ categories:
 tags:
   - Post Formats
   - notice
+date: 2100-01-01 01:00:00
+search: false
 ---
 
 A notice displays information that explains nearby content. Often used to call attention to a particular detail.
