@@ -2,7 +2,7 @@
 title: "What If? Fantasy Football in 1966"
 excerpt_separator: "<!--more-->"
 categories:
-  - WhatIf
+  - What If\?
   - blog
   - sports
 tags:
