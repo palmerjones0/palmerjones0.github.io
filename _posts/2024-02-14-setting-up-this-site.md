@@ -11,7 +11,7 @@ tags:
   - tutorial
   - GitHub
   - PorkBun
-date: 2024-02-14 10:00:00
+date: 2024-02-14 10:00:00 EST
 timezone: America/New_York
 search: true
 toc: true
