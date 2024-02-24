@@ -51,12 +51,17 @@ Quick note, my dataset doesn’t differentiate between fumbles lost vs recovered
 {: .notice--info}
 
 ### Side-note About NFL vs AFL Scoring
-While preparing the research for this post, I came across a couple wrinkles in the scoring between the NFL and AFL. First off, while the NFL didn’t implement the 2-point conversion until the 1994 season, it had been in use by the AFL from their conception in 1960 up until their completed merger with the NFL in 1970. This gives a slight edge to the 9 AFL players who successfully completed a 2-point conversion in 1966, including one scored by… Tony Romeo? That’s another rabbit-hole for this Cowboys fan to dive down later.
-Another quirk of the complete separation between the two leagues in 1966 is that the AFL only had 9 teams compared to the 15 teams of the NFL (the NFL and AFL each added an expansion team in 1966, the Atlanta Falcons and Miami Dolphins, respectively). This means that although every team played 14 games over a 16 week season, the AFL teams had more repeat matchups. I’m not sure if this would have an impact on scoring.
-Lastly, it’s worth noting that the upstart AFL had a reputation for outsized spending on star players instead of more evenly spending across the entire team. I believe this could result in those star AFL players having more statistical success given they played against worse overall competition throughout the season, although this premise is difficult to test given that there was only one cross-league matchup the entire year! Still, I’d be surprised if our starting lineup doesn’t end up featuring a QB and at least 1 WR from the AFL.
+While preparing the research for this post, I came across a couple wrinkles in the scoring between the NFL and AFL. First off, while the **NFL didn’t implement the 2-point conversion until the 1994 season**, it had been in use by the AFL from their conception in 1960 up until their completed merger with the NFL in 1970. This gives a slight edge to the 9 AFL players who successfully completed a 2-point conversion in 1966, including one scored by… *Tony Romeo?* That’s another rabbit-hole for this Cowboys fan to dive down later.
+<br>
+Another quirk of the complete separation between the two leagues in 1966 is that the AFL only had 9 teams compared to the 15 teams of the NFL (the NFL and AFL each added an expansion team in 1966, the Atlanta Falcons and Miami Dolphins, respectively). This means that although every team played 14 games over a 16 week season, the **AFL teams had more repeat matchups**. I’m not sure if this would have an impact on scoring.
+<br>
+Lastly, it’s worth noting that the upstart AFL had a reputation for **outsized spending on star players** instead of more evenly spending across the entire team. I believe this could result in those star AFL players having more statistical success given they played against worse overall competition throughout the season, although this premise is difficult to test given that there was only one cross-league matchup the entire year! Still, I’d be surprised if our starting lineup doesn’t end up featuring a QB and at least 1 WR from the AFL.
 
 ### Performing the Analysis
-I used stats provided by pro-football-reference.com to perform this analysis. The website allows you to export the season statistics by relevant area (passing, rushing, etc.) which makes it fairly straightforward to use in python. There was a bit of pre-processing required on the data,  but this was all easy to do in python using the pandas package. I ended up doing all of the heavy lifting in a Jupyter notebook, and saving the results for each position as csv files. Take a look at the notebook with markdown comments here, or use the dropdown below to look at the python block (I removed the markdown sections because they don’t render well on this page). I’ll give a rundown of the results, but if you want to take a look for yourself or use this for your own analysis you can find the csv files on my github page.
+I used stats provided by [pro-football-reference.com](https://www.pro-football-reference.com) to perform this analysis. The website allows you to export the season statistics by relevant area (passing, rushing, etc.) which makes it fairly straightforward to use in `python`. There was a bit of pre-processing required on the data,  but this was all easy to do in python using the [`pandas`](https://pandas.pydata.org) package. I ended up doing all of the heavy lifting in a [`Jupyter notebook`](https://jupyter.org), and saving the results for each position as `.csv` files. Take a look at the [notebook with markdown comments here](/FantasyFootball1966/), or use the dropdown below to look at the python block (I removed the markdown sections because they don’t render well on this page). I’ll give a rundown of the results, but if you want to take a look for yourself or use this for your own analysis you can find the csv files on my [github page](https://github.com/palmerjones0/palmerjones0.github.io/tree/main/projects/FantasyFootball1966).
+
+<details>
+  <summary><i>FantasyFootball1996.ipynb</i></summary>
 
 ```python
 pip install pandas
@@ -156,7 +161,7 @@ NFL_TEs = NFL_Player.query("Pos == 'TE'").sort_values(by=['Score'], ascending=Fa
 print(NFL_TEs)
 NFL_TEs.to_csv('TEs_1966.csv', index=False)
 ```
-
+</details>
 
 
 ## Results
