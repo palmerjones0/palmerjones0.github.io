@@ -1,5 +1,5 @@
 ---
-title: "What If? Fantasy Footbal in 1966"
+title: "What If? Fantasy Football in 1966"
 excerpt_separator: "<!--more-->"
 categories:
   - What If?
