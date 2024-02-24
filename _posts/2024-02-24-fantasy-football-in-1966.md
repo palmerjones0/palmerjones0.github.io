@@ -14,25 +14,25 @@ tags:
   - analytics
   - history
   - What If?
-date: 2024-02-15 10:00:00 EST
+date: 2024-02-24 12:00:00 EST
 timezone: America/New_York
 search: true
 toc: true
 ---
 
-While Fantasy Football may seem like a mainstay to football fans today, it didn’t really gain widespread popularity until the late 1990s and early 2000s. In fact, the now popular Points Per Reception (PPR) scoring format wasn’t even introduced until 2003, when it was conceived by the “Tout Wars” leagues as an experimental format. I can’t help but wonder, what would fantasy football have looked like in the very first season of the Super Bowl era?
+While Fantasy Football may seem like a mainstay to football fans today, it didn’t really gain widespread popularity until the late 1990s and early 2000s. The oldest known league traces back to Bill Winkenbach in 1963 with the [Greater Oakland Professional Pigskin Prognosticators League (GOPPPL)](https://www.nfl.com/100/originals/100-greatest/game-changers-16), but the results from those early years are lost to time. I can’t help but wonder, **what would fantasy football have looked like in the very first season of the Super Bowl era?**
 
 In this post I’m going to assemble the best starting lineup for a fantasy football team in 1966 using a half-PPR format, while also discussing some history about the 1966 NFL season.
 
 ## A Bit of History
-On June 8th, 1966 the NFL’s 14 teams and the 8 teams of the AFL announced an impending merger. While this merger immediately combined the recruitment of players between the 2 leagues, regular season matchups between NFL and AFL opponents wouldn’t occur until 1970 when the leagues merged completely. However, the league officials did agree to host a championship game between the winner of each league at a neutral site. This game between the Green Bay Packers of the NFL and Kansas City Chiefs of the AFL was played on January 15th, 1976 at the Los Angeles Memorial Coliseum. Led by their legendary coach Vince Lombardi (for whom the winning trophy is now named), the Packers won convincing 35-10 in front of a crowd of 61,946, cementing their legacy as the inaugural winners of what we now call the Super Bowl.
+On June 8th, 1966 the NFL’s 14 teams and the 8 teams of the AFL announced an impending merger. While this merger immediately combined the recruitment of players between the 2 leagues, **regular season matchups between NFL and AFL opponents wouldn’t occur until 1970** when the leagues merged completely. However, the league officials did agree to host a **championship game** between the winner of each league at a neutral site. This game between the Green Bay Packers of the NFL and Kansas City Chiefs of the AFL was played on January 15th, 1976 at the Los Angeles Memorial Coliseum. Led by their legendary coach **Vince Lombardi** (for whom the winning trophy is now named), the **Packers won convincing 35-10** in front of a crowd of 61,946, cementing their legacy as the inaugural winners of **what we now call the Super Bowl**.
 
 ## Finding the Best Possible Team
 
 ### Scoring
-I’m going to be using the settings of my personal fantasy football league hosted on the Sleeper platform. This is a half-point per reception league, where each team can start 1 QB, 2 RBs, 2 WRs, 1 TE, and 3 flex players (can be any combination of RBs, WRs, and TEs). This format balances the scoring of today’s pass-heavy NFL very well, although I suspect that the run-first style of most 1960s teams will result in at least 2 of the 3 flex spots being taken by RBs. Toggle the menu below to see the detailed scoring settings. 
+I’m going to be using the settings of my personal fantasy football league hosted on the [Sleeper](https://sleeper.com/) platform. This is a **half-point per reception** league, where each team can start 1 QB, 2 RBs, 2 WRs, 1 TE, and 3 flex players (can be any combination of RBs, WRs, and TEs). This format balances the scoring of today’s pass-heavy NFL very well, although I suspect that the run-first style of most 1960s teams will result in at least 2 of the 3 flex spots being taken by RBs. Toggle the menu below to see the detailed scoring settings. 
 <br><br>
-I didn’t include defenses because I didn’t want to have to comb through week-by-week data for this analysis. Many of the members of my fantasy league have lobbied to not include defenses in our league anyway, so I guess this is a nod to them!
+*I didn’t include defenses because I didn’t want to have to comb through week-by-week data for this analysis. Many of the members of my fantasy league have lobbied to not include defenses in our league anyway, so I guess this is a nod to them!*
 
 | Statistic | Score |
 | ----------- | ----------- |
@@ -48,6 +48,7 @@ I didn’t include defenses because I didn’t want to have to comb through week
 | 2 Point Conversion (Pass, Run, or Catch) | + 2 |
 
 Quick note, my dataset doesn’t differentiate between fumbles lost vs recovered, so I’m treating any fumble as a fumble lost for simplicity. Also, the listed positions in 1966 are very different than today (split end, flanker, etc.), so I manually mapped these to what I would consider the closest modern-day equivalents. It’d be interesting to think about how fantasy leagues would’ve been structured in 1966 with all of these different positions! Lastly, I was not able to find any data on pick-6s thrown, so I’ll be omitting those from this analysis.
+{: .notice--info}
 
 ### Side-note About NFL vs AFL Scoring
 While preparing the research for this post, I came across a couple wrinkles in the scoring between the NFL and AFL. First off, while the NFL didn’t implement the 2-point conversion until the 1994 season, it had been in use by the AFL from their conception in 1960 up until their completed merger with the NFL in 1970. This gives a slight edge to the 9 AFL players who successfully completed a 2-point conversion in 1966, including one scored by… Tony Romeo? That’s another rabbit-hole for this Cowboys fan to dive down later.
