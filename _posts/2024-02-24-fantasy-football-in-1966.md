@@ -18,6 +18,7 @@ date: 2024-02-24 12:00:00 EST
 timezone: America/New_York
 search: true
 toc: true
+classes: wide
 ---
 
 While Fantasy Football may seem like a mainstay to football fans today, it didn’t really gain widespread popularity until the late 1990s and early 2000s. The oldest known league traces back to Bill Winkenbach in 1963 with the [Greater Oakland Professional Pigskin Prognosticators League (GOPPPL)](https://www.nfl.com/100/originals/100-greatest/game-changers-16), but the results from those early years are lost to time. I can’t help but wonder, **what would fantasy football have looked like in the very first season of the Super Bowl era?**
@@ -170,6 +171,7 @@ NFL_TEs.to_csv('TEs_1966.csv', index=False)
 Without further ado, let’s take a look at our starting roster…
 
 ### Starting Roster
+
 | Position | Player | Score | Team | Age | Season Accolades |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
 | QB | Don Meredith | 222.4 | Dallas Cowboys | 28 | Pro Bowl, 5 rushing TDs (2nd among QBs) |
@@ -183,8 +185,8 @@ Without further ado, let’s take a look at our starting roster…
 | *RB* | Jim Nance | 212.1 | Boston Patriots | 24 | First Team All-Pro, Pro Bowl |
 
 ### Conclusions
-Well, I was wrong about having an AFL quarterback. I thought Joe Namath would be the runaway QB1, but he didn’t have nearly enough touchdowns to compliment his impressive 3379 passing yards. Don Meredith was a bit of a surprise, considering he doesn’t lead in any passing categories. It was Don’s rushing acumen that allowed him to sneak past the next-closest QB, Frank Ryan. He wasn’t the only Cowboys whose cross-position stats helped him earn a spot, Dan Reeves was also greatly helped by 8 receiving TDs. At least there were 2 AFL WRs included in Lance Alworth and Charley Frazier.
+Well, I was wrong about having an AFL quarterback. I thought Joe Namath would be the runaway QB1, but he didn’t have nearly enough touchdowns to compliment his impressive 3379 passing yards. **Don Meredith** was a bit of a surprise, considering he doesn’t lead in any passing categories. It was Don’s rushing acumen that allowed him to sneak past the next-closest QB, Frank Ryan. He wasn’t the only Cowboys whose cross-position stats helped him earn a spot, **Dan Reeves** was also greatly helped by 8 receiving TDs. At least there were 2 AFL WRs included in **Lance Alworth** and **Charley Frazier**.
 <br><br>
-It’s also interesting to notice how dramatically the role of the TE has changed since 1966. John Mackey was far and away the lowest scorer on our starting squad. His 161.3 points would only put him at #12 if he was on the receivers list!
+It’s also interesting to notice how dramatically the role of the TE has changed since 1966. **John Mackey** was far and away the lowest scorer on our starting squad. His 161.3 points would only put him at #12 if he was on the receivers list!
 <br><br>
-This was a really interesting analysis to put together, I’d be interested to try other years before or after 1966, or even expand into college football! Thanks for taking the time to read this post. If you liked it please share with others! You’re welcome to freely use this for a future project, just please include a reference or shoutout to this page, and understand that the base data came from pro-football-reference.com so their license still applies as well.
+This was a really interesting analysis to put together, I’d be interested to try other years before or after 1966, or even expand into college football! Thanks for taking the time to read this post. If you liked it please share with others! **You’re welcome to freely use this for a future project, just please include a reference or shoutout to this page**, and understand that the base data came from pro-football-reference.com so **their license still applies** as well.
