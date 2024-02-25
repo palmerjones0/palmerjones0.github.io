@@ -120,7 +120,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      comments: false
+      comments: true
 
 category_archive:
   type: liquid
