@@ -32,6 +32,12 @@ paginate_path: /page:num/
 timezone: US/Eastern # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 future: false
 
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-3F354QL826"
+    anonymize_ip: true # changed to true to comply with potential international regulations
+
 include:
   - _pages
 
