@@ -38,6 +38,17 @@ analytics:
     tracking_id: "G-3F354QL826"
     anonymize_ip: true # changed to true to comply with potential international regulations
 
+comments:
+  provider: "giscus"
+  giscus:
+    repo_id              : "R_kgDOLKvAQQ" # Shown during giscus setup at https://giscus.app
+    category_name        : "Announcements" # Full text name of the category
+    category_id          : "DIC_kwDOLKvAQc4Cdgy7" # Shown during giscus setup at https://giscus.app
+    discussion_term      : "pathname" # "pathname" (default), "url", "title", "og:title"
+    reactions_enabled    : "1" # '1' for enabled (default), '0' for disabled
+    theme                :  "dark" # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
+
+
 include:
   - _pages
 
@@ -109,6 +120,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+      comments: false
 
 category_archive:
   type: liquid
