@@ -42,7 +42,7 @@ comments:
   provider: "giscus"
   giscus:
     repo_id              : "R_kgDOLKvAQQ" # Shown during giscus setup at https://giscus.app
-    category_name        : "Announcements" # Full text name of the category
+    category_name        : "Blog Comments" # Full text name of the category
     category_id          : "DIC_kwDOLKvAQc4Cdgy7" # Shown during giscus setup at https://giscus.app
     discussion_term      : "pathname" # "pathname" (default), "url", "title", "og:title"
     reactions_enabled    : "1" # '1' for enabled (default), '0' for disabled
@@ -120,7 +120,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      comments: true
+      comments: false
 
 category_archive:
   type: liquid
