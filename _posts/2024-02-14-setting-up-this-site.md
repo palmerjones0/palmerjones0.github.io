@@ -1,5 +1,6 @@
 ---
 title: "Setting Up This Site"
+layout: single
 excerpt_separator: "<!--more-->"
 categories:
   - tutorial
