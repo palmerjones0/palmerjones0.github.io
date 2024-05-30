@@ -14,10 +14,10 @@ tags:
 date: 2024-05-30 10:00:00 EST
 timezone: America/New_York
 search: true
-toc: true
+toc: false
 ---
 
 George Birge Tour Dates Map:
 
-<iframe src="/assets/maps/map_GB.html" frameborder="0" width="640" height="360" allow="autoplay"></iframe>
+<iframe src="/assets/maps/map_GB.html" frameborder="0" width="75%" allowfullscreen allow="fullscreen"></iframe>
 
