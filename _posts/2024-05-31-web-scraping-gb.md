@@ -19,5 +19,5 @@ toc: true
 
 George Birge Tour Dates Map:
 
-<iframe src="//coub.com/embed/2mts8f?muted=false&autostart=false&originalSize=false&startWithHD=false" frameborder="0" width="640" height="360" allow="autoplay"></iframe>
+<iframe src="/assets/maps/map_GB.html" frameborder="0" width="640" height="360" allow="autoplay"></iframe>
 
