@@ -199,7 +199,7 @@ for performance in performances:
 
 
 ```python
-geolocator = Nominatim(user_agent="palmercjones@comcast.net")
+geolocator = Nominatim(user_agent="[!!INSERT YOUR EMAIL HERE!!]")
 
 for performance in performances:
     if (performance.latitude == None) or (performance.longitude == None):
