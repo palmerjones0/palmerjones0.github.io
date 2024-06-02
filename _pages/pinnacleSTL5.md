@@ -6,4 +6,4 @@ head_scripts:
   - https://code.jquery.com/jquery-3.3.1.min.js
 ---
 
-{% include stlviewer.html src="pinnacleSTL5.stl" width=500 height=400 extrastyle="" %}
+{% include stlviewer.html src="pinnacleSTL5.stl" width=100% extrastyle="aspect-ratio: 1 / 1;" %}
