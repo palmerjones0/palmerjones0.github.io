@@ -10,7 +10,8 @@ function initStlViewer() {
                                          rotationx: 0,
                                          rotationy: 0,
                                          rotationz: 0, }],
-                             auto_rotate:true });
+                             auto_rotate:true,
+                             cameray:5});
     });
 }
 
