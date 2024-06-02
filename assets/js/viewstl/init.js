@@ -6,7 +6,11 @@ function initStlViewer() {
         var filePath = $(elem).data('src');
         console.log('Initing 3D File: ' + filePath);
         //create new viewer
-        new StlViewer(elem, { models: [{ filename: filePath }], auto_rotate:true });
+        new StlViewer(elem, { models: [{ filename: filePath,
+                                         rotationx: -3.14/4,
+                                         rotationy: 0,
+                                         rotationz: -3.14/4, }],
+                             auto_rotate:true });
     });
 }
 
