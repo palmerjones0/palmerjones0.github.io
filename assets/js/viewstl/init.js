@@ -7,9 +7,9 @@ function initStlViewer() {
         console.log('Initing 3D File: ' + filePath);
         //create new viewer
         new StlViewer(elem, { models: [{ filename: filePath,
-                                         rotationx: -3.14/4,
+                                         rotationx: 0,
                                          rotationy: 0,
-                                         rotationz: -3.14/4, }],
+                                         rotationz: 0, }],
                              auto_rotate:true });
     });
 }
