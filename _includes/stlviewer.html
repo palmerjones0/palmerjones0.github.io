@@ -9,9 +9,13 @@
 {% assign height = include.height %}
 {% endif %}
 
+{% if include.aspect-ratio %}
+{% assign aspect-ratio = include.aspect-ratio %}
+{% endif %}
+
 {% capture url %}/assets/stl/{{include.src}}{% endcapture %}
 
-{% capture style %}width: {{width}}px; height: {{height}}px;
+{% capture style %}width: {{width}}; aspect-ratio: {{aspect-ratio}}px;
 -webkit-box-shadow: 3px 0px 10px 0px #000000; 
 box-shadow: 3px 0px 10px 0px #000000;
 {% if include.extrastyle %}{{include.extrastyle}}{% endif %}
