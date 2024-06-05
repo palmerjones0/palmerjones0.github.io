@@ -21,7 +21,7 @@ toc: true
 ---
 
 <!-- STL Viewer add-in -->
-{% include stlviewer.html src="pinnacleSTL4.stl" width="100%" height="100%" aspect-ratio="10/8" extrastyle="" %}
+{% include stlviewer.html src="pinnacleSTL4.stl" width="max(50%, min(500px, 100%))" height="100%" aspect-ratio="8/6" extrastyle="" %}
 
 ## Introduction
 
