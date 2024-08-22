@@ -23,9 +23,9 @@ toc: false
 
 ## Inspiration
 With the recent conference shakeups in college football, some teams will now travel much further this year than ever before. One prominent example of this is **SMU**, who has **recently joined the ACC**. While based in the Highland Park neighborhood of Dallas, Texas, SMU will travel coast to coast to play their schedule this year.
-<br>
+<br><br>
 While this this is no doubt difficult for die-hard Mustangs fans, it's great for random fans like me who will get to see a game much closer to home in North Carolina! Especially since I have a **personal connection** to the team... **my cousin!**
-<br>
+<br><br>
 This project is an extension of a [previous post](/2024-05-31-web-scraping-gb/), check that out if you want to see how I set up a web scraper to grab the info I needed. I'm only going to cover the major differences in this post.
 
 ## Web Scraping
