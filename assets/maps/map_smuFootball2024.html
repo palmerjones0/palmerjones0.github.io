@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f25ee8ea0af22eb2ea72bd5e9e448f1a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_f25ee8ea0af22eb2ea72bd5e9e448f1a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f25ee8ea0af22eb2ea72bd5e9e448f1a = L.map(
+                "map_f25ee8ea0af22eb2ea72bd5e9e448f1a",
+                {
+                    center: [39.8283, -98.5795],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_53ac5931dfbd68168aa404568397b3bb = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_53ac5931dfbd68168aa404568397b3bb.addTo(map_f25ee8ea0af22eb2ea72bd5e9e448f1a);
+        
+    
+            var marker_5494f99f02f000e92981e16c794806d4 = L.marker(
+                [32.838058700000005, -96.78345776612298],
+                {}
+            ).addTo(map_f25ee8ea0af22eb2ea72bd5e9e448f1a);
+        
+    
+            var icon_99e809d0006dbbed16a576e020719f25 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "play", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_5494f99f02f000e92981e16c794806d4.setIcon(icon_99e809d0006dbbed16a576e020719f25);
+        
+    
+            marker_5494f99f02f000e92981e16c794806d4.bindTooltip(
+                `<div>
+                     START<br>Gerald J. Ford Stadium, Dallas, TX<br>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bf954952caa5cc4385f193be952e3f92 = L.marker(
+                [39.5468915, -119.81739798009238],
+                {}
+            ).addTo(map_f25ee8ea0af22eb2ea72bd5e9e448f1a);
+        
+    
+            var icon_8ed81ffe20e16a4a3cc5b9606139b515 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_bf954952caa5cc4385f193be952e3f92.setIcon(icon_8ed81ffe20e16a4a3cc5b9606139b515);
+        
+    
+            marker_bf954952caa5cc4385f193be952e3f92.bindTooltip(
+                `<div>
+                     Nevada Wolf Pack <br>Mackay Stadium, Reno, NV<br>Saturday Aug. 24
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_488567feac8efa686bfe6d9da3ed03d4 = L.marker(
+                [32.82805870000001, -96.77345776612297],
+                {}
+            ).addTo(map_f25ee8ea0af22eb2ea72bd5e9e448f1a);
+        
+    
+            var icon_7474b354057519f4c3cc01764c731d5a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "darkred", "prefix": "fa"}
+            );
+            marker_488567feac8efa686bfe6d9da3ed03d4.setIcon(icon_7474b354057519f4c3cc01764c731d5a);
+        
+    
+            marker_488567feac8efa686bfe6d9da3ed03d4.bindTooltip(
+                `<div>
+                     HCU Huskies <br>Gerald J. Ford Stadium, Dallas, TX<br>Saturday Aug. 31
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_92f4109979b565ea72c0598e5d0de06e = L.marker(
+                [32.81805870000001, -96.76345776612297],
+                {}
+            ).addTo(map_f25ee8ea0af22eb2ea72bd5e9e448f1a);
+        
+    
+            var icon_a19569ab2bc63e2f317c400bc2f6f472 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "darkred", "prefix": "fa"}
+            );
+            marker_92f4109979b565ea72c0598e5d0de06e.setIcon(icon_a19569ab2bc63e2f317c400bc2f6f472);
+        
+    
+            marker_92f4109979b565ea72c0598e5d0de06e.bindTooltip(
+                `<div>
+                     BYU Cougars <br>Gerald J. Ford Stadium, Dallas, TX<br>Friday Sep. 6
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3fc8c14fdf0d27920c370f34ad37b8ad = L.marker(
+                [32.80805870000001, -96.75345776612296],
+                {}
+            ).addTo(map_f25ee8ea0af22eb2ea72bd5e9e448f1a);
+        
+    
+            var icon_ac7b6b64c278db457a58cfe9ff8ba4b8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "moon", "iconColor": "white", "markerColor": "lightgray", "prefix": "fa"}
+            );
+            marker_3fc8c14fdf0d27920c370f34ad37b8ad.setIcon(icon_ac7b6b64c278db457a58cfe9ff8ba4b8);
+        
+    
+            marker_3fc8c14fdf0d27920c370f34ad37b8ad.bindTooltip(
+                `<div>
+                     OFF<br>Gerald J. Ford Stadium, Dallas, TX<br>Saturday Sep. 14
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_76efa48ad24d54f6e9b87dd61c6f84c9 = L.marker(
+                [32.79805870000001, -96.74345776612296],
+                {}
+            ).addTo(map_f25ee8ea0af22eb2ea72bd5e9e448f1a);
+        
+    
+            var icon_506814d7ecfc628eba255146037bedf3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "darkred", "prefix": "fa"}
+            );
+            marker_76efa48ad24d54f6e9b87dd61c6f84c9.setIcon(icon_506814d7ecfc628eba255146037bedf3);
+        
+    
+            marker_76efa48ad24d54f6e9b87dd61c6f84c9.bindTooltip(
+                `<div>
+                     TCU Horned Frogs <br>Gerald J. Ford Stadium, Dallas, TX<br>Saturday Sep. 21
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a7e31aab41606cfbde165e888a7d495a = L.marker(
+                [32.788058700000015, -96.73345776612295],
+                {}
+            ).addTo(map_f25ee8ea0af22eb2ea72bd5e9e448f1a);
+        
+    
+            var icon_3285ea6fdf53059c530acf4d6ac3404e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "darkred", "prefix": "fa"}
+            );
+            marker_a7e31aab41606cfbde165e888a7d495a.setIcon(icon_3285ea6fdf53059c530acf4d6ac3404e);
+        
+    
+            marker_a7e31aab41606cfbde165e888a7d495a.bindTooltip(
+                `<div>
+                     Florida State Seminoles <br>Gerald J. Ford Stadium, Dallas, TX<br>Saturday Sep. 28
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_512e3e643a602ff79447cd4c76e161d2 = L.marker(
+                [38.206016149999996, -85.75877338041424],
+                {}
+            ).addTo(map_f25ee8ea0af22eb2ea72bd5e9e448f1a);
+        
+    
+            var icon_4e3f2857f95158523312f3106db137b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_512e3e643a602ff79447cd4c76e161d2.setIcon(icon_4e3f2857f95158523312f3106db137b6);
+        
+    
+            marker_512e3e643a602ff79447cd4c76e161d2.bindTooltip(
+                `<div>
+                     Louisville Cardinals <br>L&N Stadium, Louisville, KY<br>Saturday Oct. 5
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ab1eaa21637aa7a4e7368c60a23e5e62 = L.marker(
+                [32.77805870000002, -96.72345776612295],
+                {}
+            ).addTo(map_f25ee8ea0af22eb2ea72bd5e9e448f1a);
+        
+    
+            var icon_6f541b8dc55b16821edf38b7519c1ee7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "moon", "iconColor": "white", "markerColor": "lightgray", "prefix": "fa"}
+            );
+            marker_ab1eaa21637aa7a4e7368c60a23e5e62.setIcon(icon_6f541b8dc55b16821edf38b7519c1ee7);
+        
+    
+            marker_ab1eaa21637aa7a4e7368c60a23e5e62.bindTooltip(
+                `<div>
+                     OFF<br>Gerald J. Ford Stadium, Dallas, TX<br>Saturday Oct. 12
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_195f0796b4e898834927fa3f1b734250 = L.marker(
+                [37.43453005, -122.16116296732366],
+                {}
+            ).addTo(map_f25ee8ea0af22eb2ea72bd5e9e448f1a);
+        
+    
+            var icon_0bc8d6561cd13b5239f0710c1336812d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_195f0796b4e898834927fa3f1b734250.setIcon(icon_0bc8d6561cd13b5239f0710c1336812d);
+        
+    
+            marker_195f0796b4e898834927fa3f1b734250.bindTooltip(
+                `<div>
+                     Stanford Cardinal <br>Stanford Stadium, Stanford, CA<br>Saturday Oct. 19
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_39791432f31a6d340fa53a747988b202 = L.marker(
+                [35.995445849999996, -78.94188924076411],
+                {}
+            ).addTo(map_f25ee8ea0af22eb2ea72bd5e9e448f1a);
+        
+    
+            var icon_6bd3d44e44a7c726270a53cfcccc9605 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_39791432f31a6d340fa53a747988b202.setIcon(icon_6bd3d44e44a7c726270a53cfcccc9605);
+        
+    
+            marker_39791432f31a6d340fa53a747988b202.bindTooltip(
+                `<div>
+                     Duke Blue Devils <br>Wallace Wade Stadium, Durham, NC<br>Saturday Oct. 26
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_15e2575cefd2f529c5ecca0b2c10e63e = L.marker(
+                [32.76805870000002, -96.71345776612294],
+                {}
+            ).addTo(map_f25ee8ea0af22eb2ea72bd5e9e448f1a);
+        
+    
+            var icon_08d59fab7e9f12d46127b290e545a95d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "darkred", "prefix": "fa"}
+            );
+            marker_15e2575cefd2f529c5ecca0b2c10e63e.setIcon(icon_08d59fab7e9f12d46127b290e545a95d);
+        
+    
+            marker_15e2575cefd2f529c5ecca0b2c10e63e.bindTooltip(
+                `<div>
+                     Pitt Panthers <br>Gerald J. Ford Stadium, Dallas, TX<br>Saturday Nov. 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c38d5d5f8bbd3720e1d164859de58e82 = L.marker(
+                [32.75805870000002, -96.70345776612294],
+                {}
+            ).addTo(map_f25ee8ea0af22eb2ea72bd5e9e448f1a);
+        
+    
+            var icon_cab0f206bedead6b3197a209459155ea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "moon", "iconColor": "white", "markerColor": "lightgray", "prefix": "fa"}
+            );
+            marker_c38d5d5f8bbd3720e1d164859de58e82.setIcon(icon_cab0f206bedead6b3197a209459155ea);
+        
+    
+            marker_c38d5d5f8bbd3720e1d164859de58e82.bindTooltip(
+                `<div>
+                     OFF<br>Gerald J. Ford Stadium, Dallas, TX<br>Saturday Nov. 9
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_01f500821b5c227b04ae0df32896feb9 = L.marker(
+                [32.74805870000002, -96.69345776612293],
+                {}
+            ).addTo(map_f25ee8ea0af22eb2ea72bd5e9e448f1a);
+        
+    
+            var icon_daa1ba4874d5fe340b34bc5d7164fb36 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "darkred", "prefix": "fa"}
+            );
+            marker_01f500821b5c227b04ae0df32896feb9.setIcon(icon_daa1ba4874d5fe340b34bc5d7164fb36);
+        
+    
+            marker_01f500821b5c227b04ae0df32896feb9.bindTooltip(
+                `<div>
+                     Boston College Eagles <br>Gerald J. Ford Stadium, Dallas, TX<br>Saturday Nov. 16
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c898c372c2945d4d0d829d0dcde0ec5b = L.marker(
+                [38.029306, -78.4766781],
+                {}
+            ).addTo(map_f25ee8ea0af22eb2ea72bd5e9e448f1a);
+        
+    
+            var icon_4be2db2c7af37846f51a659488361191 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_c898c372c2945d4d0d829d0dcde0ec5b.setIcon(icon_4be2db2c7af37846f51a659488361191);
+        
+    
+            marker_c898c372c2945d4d0d829d0dcde0ec5b.bindTooltip(
+                `<div>
+                     Virginia Cavaliers <br>Scott Stadium, Charlottesville, VA<br>Saturday Nov. 23
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_76d5f86d32a3f7831dea017e8c32d3a0 = L.marker(
+                [32.738058700000025, -96.68345776612293],
+                {}
+            ).addTo(map_f25ee8ea0af22eb2ea72bd5e9e448f1a);
+        
+    
+            var icon_43cc41f276f5c5cbb92ecf4621bd2a9d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "darkred", "prefix": "fa"}
+            );
+            marker_76d5f86d32a3f7831dea017e8c32d3a0.setIcon(icon_43cc41f276f5c5cbb92ecf4621bd2a9d);
+        
+    
+            marker_76d5f86d32a3f7831dea017e8c32d3a0.bindTooltip(
+                `<div>
+                     California Golden Bears <br>Gerald J. Ford Stadium, Dallas, TX<br>Saturday Nov. 30
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ca7486404a08fdd71f551dc7c879e2cd = L.marker(
+                [35.22579505, -80.85385877910787],
+                {}
+            ).addTo(map_f25ee8ea0af22eb2ea72bd5e9e448f1a);
+        
+    
+            var icon_96c103189a16e02585af139088a71b09 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "trophy", "iconColor": "white", "markerColor": "darkpurple", "prefix": "fa"}
+            );
+            marker_ca7486404a08fdd71f551dc7c879e2cd.setIcon(icon_96c103189a16e02585af139088a71b09);
+        
+    
+            marker_ca7486404a08fdd71f551dc7c879e2cd.bindTooltip(
+                `<div>
+                     ACC Championship<br>Bank of America Stadium, Charlotte, NC<br>Saturday Dec. 7
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_9bc599104be206a0535ef988594b9862 = L.polyline(
+                [[32.838058700000005, -96.78345776612298], [39.5468915, -119.81739798009238], [32.82805870000001, -96.77345776612297], [32.81805870000001, -96.76345776612297], [32.80805870000001, -96.75345776612296], [32.79805870000001, -96.74345776612296], [32.788058700000015, -96.73345776612295], [38.206016149999996, -85.75877338041424], [32.77805870000002, -96.72345776612295], [37.43453005, -122.16116296732366], [35.995445849999996, -78.94188924076411], [32.76805870000002, -96.71345776612294], [32.75805870000002, -96.70345776612294], [32.74805870000002, -96.69345776612293], [38.029306, -78.4766781], [32.738058700000025, -96.68345776612293], [35.22579505, -80.85385877910787]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_f25ee8ea0af22eb2ea72bd5e9e448f1a);
+        
+    
+            poly_line_9bc599104be206a0535ef988594b9862.bindTooltip(
+                `<div>
+                     Travel
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
