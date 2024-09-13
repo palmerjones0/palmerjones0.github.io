@@ -42,9 +42,9 @@ Another example with a man-made canal, the Delmarva Peninsula is connected to th
 # Wrap Up
 If you have other examples of isthmuses from the US or would like to see a similar list for world cities, leave a comment below! I hope to add more blog posts about interesting geography in the future.
 
->**Picture Credits**
->https://www.medicine.wisc.edu/department-medicine/life-madison
->https://commons.wikimedia.org/wiki/File:Aerial_view_of_Downtown_Seattle_with_Bellevue_in_the_background,_2019.jpg
->https://www.sciencephoto.com/media/181921/view/aerial-infrared-view-of-new-orleans-usa
->https://www.rv.com/lifestyle-travel/places-to-go-things-to-do/land-between-the-lakes-kentucky/
->https://www.outsideonline.com/adventure-travel/essays/a-magical-realm-of-crabs-and-chickens/
+**Picture Credits**
+- https://www.medicine.wisc.edu/department-medicine/life-madison
+- https://commons.wikimedia.org/wiki/File:Aerial_view_of_Downtown_Seattle_with_Bellevue_in_the_background,_2019.jpg
+- https://www.sciencephoto.com/media/181921/view/aerial-infrared-view-of-new-orleans-usa
+- https://www.rv.com/lifestyle-travel/places-to-go-things-to-do/land-between-the-lakes-kentucky/
+- https://www.outsideonline.com/adventure-travel/essays/a-magical-realm-of-crabs-and-chickens/
