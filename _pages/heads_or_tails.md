@@ -1,3 +1,7 @@
+---
+permalink: /heads_or_tails/
+---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -44,3 +48,4 @@
 
 </body>
 </html>
+
