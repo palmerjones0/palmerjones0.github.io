@@ -45,9 +45,9 @@ permalink: /heads_or_tails/
             coinButton.textContent = result;
             if (result == 'H') {
               // Change the color based on the value
-              coinButton.background-color = '#2bc26c';
+              coinButton.style.backgroundColor = '#2bc26c';
             } else if ( result == 'T' ) {
-              coinButton.background-color = '#c22b3a';
+              coinButton.style.backgroundColor = '#c22b3a';
             }
         });
     </script>
