@@ -1,4 +1,5 @@
 ---
+layout: none
 permalink: /heads_or_tails/
 ---
 
