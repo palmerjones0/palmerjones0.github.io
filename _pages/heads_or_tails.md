@@ -43,6 +43,12 @@ permalink: /heads_or_tails/
         coinButton.addEventListener('click', function() {
             const result = Math.random() < 0.5 ? 'H' : 'T';
             coinButton.textContent = result;
+            if (result == 'H') {
+              // Change the color based on the value
+              coinButton.background-color = '#2bc26c';
+            } else if ( result == 'T' ) {
+              coinButton.background-color = '#c22b3a';
+            }
         });
     </script>
 
