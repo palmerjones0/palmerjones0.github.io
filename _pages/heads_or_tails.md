@@ -54,7 +54,8 @@ permalink: /heads_or_tails/
 
     <script>
         const coinButton = document.getElementById('coin');
-        const scoreDisplay = document.getElementById('score');
+        const currentStreakDisplay = document.getElementById('current-streak');
+        const highScoreDisplay = document.getElementById('high-score');
 
         let currentStreak = 0;
         let highScore = 0;
