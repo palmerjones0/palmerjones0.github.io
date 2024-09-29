@@ -40,6 +40,8 @@ permalink: /heads_or_tails/
 
     <button id="coin">Flip</button>
 
+    <br>
+
     <div id="score">
         Current Streak: 0 | High Score: 0
     </div>
