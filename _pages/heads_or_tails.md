@@ -16,6 +16,7 @@ permalink: /heads_or_tails/
             height: 100vh;
             margin: 0;
             background-color: #f4f4f9;
+            flex-direction: column;
         }
         #coin {
             font-size: 50px;
@@ -30,9 +31,13 @@ permalink: /heads_or_tails/
             cursor: pointer;
             border: none;
             outline: none;
+            transition: background-color 0.3s ease;
+            margin-bottom: 20px;
         }
         #score {
             font-size: 20px;
+            text-align: center;
+            line-height: 1.5;
         }
     </style>
 </head>
