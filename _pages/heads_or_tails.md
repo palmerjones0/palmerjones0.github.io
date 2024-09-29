@@ -34,6 +34,23 @@ permalink: /heads_or_tails/
             transition: background-color 0.3s ease;
             margin-bottom: 20px;
         }
+        #home-button {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        #home-button:hover {
+            background-color: #0056b3;
+        }
         #score {
             font-size: 20px;
             text-align: center;
@@ -43,6 +60,8 @@ permalink: /heads_or_tails/
 </head>
 <body>
 
+    <a href="/" id="home-button">palmercjones.com</a> <!-- Home button -->
+    
     <button id="coin">Flip</button>
 
     <br>
