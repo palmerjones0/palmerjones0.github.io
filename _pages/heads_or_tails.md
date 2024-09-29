@@ -43,7 +43,8 @@ permalink: /heads_or_tails/
     <br>
 
     <div id="score">
-        Current Streak: 0 | High Score: 0
+        <span id="current-streak">Current Streak: 0</span><br>
+        <span id="high-score">High Score: 0</span>
     </div>
 
     <script>
@@ -70,7 +71,8 @@ permalink: /heads_or_tails/
             }
 
             // Update score display
-            scoreDisplay.textContent = `Current Streak: ${currentStreak} | High Score: ${highScore}`;
+            currentStreakDisplay.textContent = `Current Streak: ${currentStreak}`;
+            highScoreDisplay.textContent = `High Score: ${highScore}`;
         });
     </script>
 
