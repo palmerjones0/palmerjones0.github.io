@@ -31,24 +31,44 @@ permalink: /heads_or_tails/
             border: none;
             outline: none;
         }
+        #score {
+            font-size: 20px;
+        }
     </style>
 </head>
 <body>
 
     <button id="coin">Flip</button>
 
+    <div id="score">
+        Current Streak: 0 | High Score: 0
+    </div>
+
     <script>
         const coinButton = document.getElementById('coin');
+        const scoreDisplay = document.getElementById('score');
+
+        let currentStreak = 0;
+        let highScore = 0;
 
         coinButton.addEventListener('click', function() {
             const result = Math.random() < 0.5 ? 'H' : 'T';
             coinButton.textContent = result;
+            
             if (result == 'H') {
-              // Change the color based on the value
+              currentStreak++;
               coinButton.style.backgroundColor = '#2bc26c';
             } else if ( result == 'T' ) {
+              currentStreak = 0;
               coinButton.style.backgroundColor = '#c22b3a';
             }
+
+            if (currentStreak > highScore) {
+                highScore = currentStreak;
+            }
+
+            // Update score display
+            scoreDisplay.textContent = `Current Streak: ${currentStreak} | High Score: ${highScore}`;
         });
     </script>
 
