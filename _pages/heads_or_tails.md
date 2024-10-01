@@ -221,7 +221,7 @@ permalink: /heads_or_tails/
         function updateLeaderboard() {
           db.collection("highScores")
             .orderBy("score", "desc")
-            .limit(5)
+            .limit(10)
             .get()
             .then((querySnapshot) => {
               leaderboardList.innerHTML = ''; // Clear current leaderboard
