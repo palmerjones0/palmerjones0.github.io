@@ -16,9 +16,10 @@ search: true
 toc: true
 ---
 
-I wanted to find out if it was possible to make a browser-based game hosted on this site, so I decided to make a proof of concept. To keep it simple, I decided the "game" would be flipping a coin! See how many heads you can get in a row by **playing the game [here](/pages/heads_or_tails.md)!**
+I wanted to find out if it was possible to make a browser-based game hosted on this site, so I decided to make a proof of concept. To keep it simple, I decided the "game" would be flipping a coin! See how many heads you can get in a row by **playing the game [here](/heads_or_tails.md)!**
 <br>
-[Play Heads or Tails](/pages/heads_or_tails.md){: .btn .btn--info}
+<br>
+[Play Heads or Tails](/heads_or_tails.md){: .btn .btn--info}
 
 ## About the Game
 
