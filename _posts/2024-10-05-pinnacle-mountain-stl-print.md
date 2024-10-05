@@ -17,10 +17,10 @@ search: true
 toc: true
 ---
 
-Following up from my previous post about [making a stl file from a geographical feature](/blog/pinnacle-mountain-tif-to-stl/), I wanted to give an update on the project. See the final result and the steps I followed to make the 3D file a reality! A special thanks to [Andrew](andrew@apex3dprints.com) at [Apex 3D Prints](https://www.apex3dprints.com) for helping make this a reality!
+Following up from my previous post about [making a stl file from a geographical feature](/blog/pinnacle-mountain-tif-to-stl/), I wanted to give an update on the project. See the final result and the steps I followed to make the 3D file a reality! A special thanks to Andrew (andrew@apex3dprints.com) at [Apex 3D Prints](https://www.apex3dprints.com) for helping make this a reality!
 
 ![styled-image](/assets/images/PinnacleMountainPainted.jpeg "Painted 3d Print"){: .align-left}
-<br>
+<br><br>
 
 ## Editing in Blender
 I wanted the print to fit inside of a snow globe, so I **trimmed the perimeter** of the print down so it would have a circular base. Also, to allow the snow globe to be filled with water, I **punched a hole in the bottom** to align with the hole in my snow globe base.
