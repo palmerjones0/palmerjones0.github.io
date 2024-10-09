@@ -33,6 +33,7 @@ permalink: /games-by-palmer/
             border-radius: min(2vw,12.5px); /* Adjust the value as needed */
             overflow: hidden; /* Ensures the images inside follow the rounded corners */
             text-decoration: none;
+            background-color: #205dec;
         }
 
         .tile-image {
@@ -78,7 +79,7 @@ permalink: /games-by-palmer/
             margin-top: 10px;
             font-size: 16px;
             text-decoration: none !important;
-            color: #333;
+            color: #e2eef5;
         }
 
         /* Adding shadow effect */
