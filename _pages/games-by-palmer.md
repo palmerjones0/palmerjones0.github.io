@@ -97,10 +97,10 @@ permalink: /games-by-palmer/
 </head>
 <script>
   gtag('event', 'play', {
-  'event_category': 'Game',
-  'event_label': 'heads-or-tails', // Adjust this label for each game
-  'value': 1
-});
+      'event_category': 'Game',
+      'event_label': 'heads-or-tails', // Adjust this label for each game
+      'value': 1
+  });
 
 </script>
 <body>
