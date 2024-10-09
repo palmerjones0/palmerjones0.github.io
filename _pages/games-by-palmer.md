@@ -95,6 +95,14 @@ permalink: /games-by-palmer/
         }
     </style>
 </head>
+<script>
+  gtag('event', 'play', {
+  'event_category': 'Game',
+  'event_label': 'heads-or-tails', // Adjust this label for each game
+  'value': 1
+});
+
+</script>
 <body>
     <div class="container">
         <div class="tile">
@@ -103,7 +111,7 @@ permalink: /games-by-palmer/
                     <img src="/assets/images/heads-or-tails.jpg" alt="Game 1" class="static">
                     <img src="/assets/images/heads-or-tails.gif" alt="Game 1" class="animated">
                 </div>
-                <h3>Game 1</h3>
+                <h3>Heads or Tails</h3>
             </a>
         </div>
 
