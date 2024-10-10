@@ -259,6 +259,27 @@ permalink: /heads_or_tails/
           });
         }
 
+        // Reference the document that has the page views
+        const pageViewsRef = db.collection('pageViews').doc('views');
+
+        // Function to increment the count
+        function incrementPageView() {
+          pageViewsRef.update({
+            count: firebase.firestore.FieldValue.increment(1) // Increment the count by 1
+          })
+          .then(() => {
+            console.log("Page view count incremented successfully!");
+          })
+          .catch((error) => {
+            console.error("Error updating page views: ", error);
+          });
+        }
+
+        // Call this function when the page loads
+        window.onload = function() {
+          incrementPageView();
+        };
+
         // Get leaderboard on page load
         updateLeaderboard();
 
