@@ -109,14 +109,7 @@ permalink: /games-by-palmer/
         }
     </style>
 </head>
-<script>
-  gtag('event', 'play', {
-      'event_category': 'Game',
-      'event_label': 'heads-or-tails', // Adjust this label for each game
-      'value': 1
-  });
 
-</script>
 <body>
     <div class="container">
         <div class="tile">
@@ -144,10 +137,10 @@ permalink: /games-by-palmer/
         });
     </script>
 
-<script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-firestore.js"></script>
-<script>
-    // Firebase configuration for head-or-tails
+<script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js";
+    import { getFirestore, doc, getDoc } from "https://www.gstatic.com/firebasejs/9.0.0/firebase-firestore.js";
+
     const firebaseConfig = {
         apiKey: "AIzaSyBGae8deSU51k9rDow583pqvqN7vwPnjYA",
         authDomain: "heads-or-tails-8ba1c.firebaseapp.com",
@@ -159,31 +152,25 @@ permalink: /games-by-palmer/
     };
 
     // Initialize Firebase
-    firebase.initializeApp(firebaseConfig);
-    const db = firebase.firestore();
+    const app = initializeApp(firebaseConfig);
+    const db = getFirestore(app);
 
-    // Function to get the page view count
-    function getPageViewCount() {
-      const pageViewsRef = db.collection('pageViews').doc('views');
-      pageViewsRef.get()
-      .then((doc) => {
-        if (doc.exists) {
-          const count = doc.data().count;  // Get the 'count' field value
-          document.getElementById('heads-or-tails-plays').innerText = `${count} Plays`;
+    async function getPageViewCount() {
+        const pageViewsRef = doc(db, 'pageViews', 'views');
+        const docSnap = await getDoc(pageViewsRef);
+        if (docSnap.exists()) {
+            const count = docSnap.data().count;
+            document.getElementById('heads-or-tails-plays').innerText = `${count} Plays`;
         } else {
-          console.log("No such document!");
+            console.log("No such document!");
         }
-      })
-      .catch((error) => {
-        console.error("Error getting document: ", error);
-      });
     }
 
     // Call this function when the page loads
     window.onload = function() {
-      getPageViewCount();
+        getPageViewCount();
     };
+
 </script>
 </body>
 </html>
-
