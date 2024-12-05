@@ -127,14 +127,49 @@ var coachesChart = new Chart(ctx, {
       x: {
         title: {
           display: true,
-          text: 'Age at Title'
+          text: 'Age at Title',
+          color: 'rgba(255, 255, 255, 0.7)', // Lighter color for dark backgrounds
+          font: {
+            size: 14,
+            weight: 'bold',
+            family: 'Arial'
+          }
+        },
+        ticks: {
+          color: 'rgba(255, 255, 255, 0.7)' // Lighter tick marks
         }
       },
       y: {
         title: {
           display: true,
-          text: 'Coaching Tenure (Years)'
+          text: 'Coaching Tenure (Years)',
+          color: 'rgba(255, 255, 255, 0.7)', // Lighter color for dark backgrounds
+          font: {
+            size: 14,
+            weight: 'bold',
+            family: 'Arial'
+          }
+        },
+        ticks: {
+          color: 'rgba(255, 255, 255, 0.7)' // Lighter tick marks
         }
+      }
+    },
+    legend: {
+      labels: {
+        color: 'rgba(255, 255, 255, 0.7)', // Lighter legend text
+        font: {
+          size: 14,
+          weight: 'bold',
+          family: 'Arial'
+        }
+      }
+    },
+    elements: {
+      point: {
+        radius: 4, // Increase the size of the dots
+        //hitRadius: 5, // Increase the clickable area around each dot
+        //hoverRadius: 5, // Make the hover effect larger for better touch interaction
       }
     }
   }
