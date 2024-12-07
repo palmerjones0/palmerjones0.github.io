@@ -14,7 +14,7 @@ tags:
   - charts
   - data
 date: 2024-12-11 10:00:00 EST
-published: false
+published: true
 timezone: America/New_York
 search: true
 toc: true
@@ -71,7 +71,8 @@ toc: true
     marker: {
       size: 12,
       color: d.color,
-      symbol: d.shape
+      symbol: d.shape,
+      stroke: "black"
     },
     name: d.school,
     text: `School: ${d.school}<br>Conference: ${d.conference}<br>Enrollment: ${d.enrollment}<br>Endowment: $${d.endowment}B<br>Type: ${d.type}`
@@ -90,9 +91,9 @@ toc: true
     yaxis: {
       title: { text: "Endowment (Billions)", font: { color: "#ffffff" } },
       tickfont: { color: "#ffffff" }
-    },
+    }
     //plot_bgcolor: "#333333",
-    paper_bgcolor: "#333333"
+    //paper_bgcolor: "#333333"
   };
 
   // Render the chart
