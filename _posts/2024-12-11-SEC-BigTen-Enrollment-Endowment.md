@@ -64,51 +64,81 @@ toc: false
   ];
 
   // Transform data into Plotly format
-  const traces = data.map(d => ({
+  const traces = data.map((d, index) => {
+  // Manually adjust text position based on proximity of points
+  let textOffsetX = 0;
+  let textOffsetY = 0;
+
+  // Check for nearby points and apply offset
+  // This is a simple check for nearby points based on enrollment and endowment values
+  data.forEach((otherPoint, otherIndex) => {
+    if (index !== otherIndex) {
+      const distance = Math.sqrt(Math.pow(d.enrollment - otherPoint.enrollment, 2) + Math.pow(d.endowment - otherPoint.endowment, 2));
+      
+      // If points are too close, add an offset to the text
+      if (distance < 5000) { // Customize threshold for "closeness"
+        textOffsetX += 10; // Adjust horizontally
+        textOffsetY += 10; // Adjust vertically
+      }
+    }
+  });
+
+  return {
     x: [d.enrollment],
     y: [d.endowment],
-    mode: "markers",
+    mode: "markers+text",
     marker: {
-      size: 12,
+      size: 10,
       color: d.color,
       symbol: d.shape,
       line: {
         color: "black", // Black outline
-        width: 1       // Thin outline
+        width: 1        // Thin outline
       }
     },
     name: d.school,
-    text: `School: ${d.school}<br>Conference: ${d.conference}<br>Enrollment: ${d.enrollment}<br>Endowment: $${d.endowment}B<br>Type: ${d.type}`
-  }));
-
-  // Layout with dark theme customization
-  const layout = {
-    title: {
-      text: "Endowment vs. Enrollment",
-      font: { color: "#ffffff" }
+    text: [d.school],
+    textfont: {
+      color: d.color,
+      size: 10
     },
-    xaxis: {
-      title: { text: "Enrollment", font: { color: "#ffffff" } },
-      tickfont: { color: "#ffffff" },
-      gridcolor: "#666666" // Set gridline color to medium gray
-    },
-    yaxis: {
-      title: { text: "Endowment (Billions)", font: { color: "#ffffff" } },
-      tickfont: { color: "#ffffff" },
-      type: 'log', // Logarithmic scale for y-axis
-      gridcolor: "#666666" // Set gridline color to medium gray
-    },
-    plot_bgcolor: "#333333",
-    paper_bgcolor: "#333333",
-    showlegend: false, // Add this line to disable the legend
-    margin: {
-      l: 25, // Left margin
-      r: 25, // Right margin
-      t: 25, // Top margin
-      b: 25  // Bottom margin
+    textposition: 'top center',
+    textangle: 0,  // Adjust angle if needed
+    textoffset: {
+      x: textOffsetX,  // Adjust X position dynamically
+      y: textOffsetY   // Adjust Y position dynamically
     }
   };
+});
 
-  // Render the chart
-  Plotly.newPlot("chart", traces, layout);
+// Layout with dark theme customization
+const layout = {
+  title: {
+    text: "Endowment vs. Enrollment",
+    font: { color: "#ffffff" }
+  },
+  xaxis: {
+    title: { text: "Enrollment", font: { color: "#ffffff" } },
+    tickfont: { color: "#ffffff" },
+    gridcolor: "#666666"
+  },
+  yaxis: {
+    title: { text: "Endowment (Billions)", font: { color: "#ffffff" } },
+    tickfont: { color: "#ffffff" },
+    type: 'log',
+    gridcolor: "#666666"
+  },
+  plot_bgcolor: "#333333",
+  paper_bgcolor: "#333333",
+  showlegend: false,
+  margin: {
+    l: 30,
+    r: 20,
+    t: 20,
+    b: 30
+  }
+};
+
+// Render the chart
+Plotly.newPlot("chart", traces, layout);
 </script>
