@@ -94,7 +94,7 @@ toc: false
     yaxis: {
       title: { text: "Endowment (Billions)", font: { color: "#ffffff" } },
       tickfont: { color: "#ffffff" }
-    }
+    },
     plot_bgcolor: "#333333",
     paper_bgcolor: "#333333",
     showlegend: false // Add this line to disable the legend
