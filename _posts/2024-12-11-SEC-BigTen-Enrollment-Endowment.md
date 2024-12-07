@@ -22,7 +22,13 @@ toc: false
 
 <script src="https://cdn.plot.ly/plotly-2.20.0.min.js"></script>
 
+With conference realignment in full swing, how do new **Big Ten** and **SEC** schools fit in with their peers in terms of total **enrollment** and **endowment**? Check out the chart below to see! *(note that the y axis is in logarithmic scale)*
+
 <div id="chart" style="width:100%;height:600px;"></div>
+
+## Sources
+[Big Ten](https://en.wikipedia.org/wiki/Big_Ten_Conference)
+[SEC](https://en.wikipedia.org/wiki/Southeastern_Conference)
 
 <script>
   // Data for SEC and Big Ten schools
