@@ -63,53 +63,30 @@ toc: false
     {school: "Vanderbilt", conference: "SEC", type: "Private", enrollment: 13.456, endowment: 9.684, color: "yellow", shape: "diamond"}
   ];
 
-  // Transform data into Plotly format
-  const traces = data.map((d, index) => {
-  // Manually adjust text position based on proximity of points
-  let textOffsetX = 0;
-  let textOffsetY = 0;
-
-  // Check for nearby points and apply offset
-  // This is a simple check for nearby points based on enrollment and endowment values
-  data.forEach((otherPoint, otherIndex) => {
-    if (index !== otherIndex) {
-      const distance = Math.sqrt(Math.pow(d.enrollment - otherPoint.enrollment, 2) + Math.pow(d.endowment - otherPoint.endowment, 2));
-      
-      // If points are too close, add an offset to the text
-      if (distance < 50) { // Customize threshold for "closeness"
-        textOffsetX += 25; // Adjust horizontally
-        textOffsetY += 25; // Adjust vertically
-      }
+  const traces = data.map(d => ({
+  x: [d.enrollment],
+  y: [d.endowment],
+  mode: "markers+text",
+  marker: {
+    size: 10,
+    color: d.color,
+    symbol: d.shape,
+    line: {
+      color: "black", // Black outline
+      width: 1        // Thin outline
     }
-  });
-
-  return {
-    x: [d.enrollment],
-    y: [d.endowment],
-    mode: "markers+text",
-    marker: {
-      size: 10,
-      color: d.color,
-      symbol: d.shape,
-      line: {
-        color: "black", // Black outline
-        width: 1        // Thin outline
-      }
-    },
-    name: d.school,
-    text: `School: ${d.school}<br>Conference: ${d.conference}<br>Enrollment: ${d.enrollment}<br>Endowment: $${d.endowment}B<br>Type: ${d.type}`,
-    textfont: {
-      color: d.color,
-      size: 10
-    },
-    textposition: 'top center',
-    textangle: 0,  // Adjust angle if needed
-    textoffset: {
-      x: textOffsetX,  // Adjust X position dynamically
-      y: textOffsetY   // Adjust Y position dynamically
-    }
-  };
-});
+  },
+  name: d.school,
+  text: [
+    `School: ${d.school}<br>Conference: ${d.conference}<br>Enrollment: ${d.enrollment}<br>Endowment: $${d.endowment}B<br>Type: ${d.type}`
+  ],  // This provides more detailed information for the tooltip
+  textfont: {
+    color: d.color,
+    size: 10
+  },
+  textposition: 'top center',  // Keeps the label as just the school name
+  hoverinfo: 'text',  // Show the detailed info in the tooltip
+}));
 
 // Layout with dark theme customization
 const layout = {
