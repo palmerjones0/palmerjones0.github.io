@@ -92,7 +92,7 @@ toc: true
       tickfont: { color: "#ffffff" }
     },
     //plot_bgcolor: "#333333",
-    //paper_bgcolor: "#333333"
+    paper_bgcolor: "#333333"
   };
 
   // Render the chart
