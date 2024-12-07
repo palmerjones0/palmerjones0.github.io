@@ -14,7 +14,7 @@ tags:
   - charts
   - data
 date: 2024-12-11 10:00:00 EST
-published: true
+published: false
 timezone: America/New_York
 search: true
 toc: true
@@ -91,8 +91,8 @@ toc: true
       title: { text: "Endowment (Billions)", font: { color: "#ffffff" } },
       tickfont: { color: "#ffffff" }
     },
-    plot_bgcolor: "#333333",
-    paper_bgcolor: "#333333"
+    //plot_bgcolor: "#333333",
+    //paper_bgcolor: "#333333"
   };
 
   // Render the chart
