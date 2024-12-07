@@ -76,9 +76,9 @@ toc: false
       const distance = Math.sqrt(Math.pow(d.enrollment - otherPoint.enrollment, 2) + Math.pow(d.endowment - otherPoint.endowment, 2));
       
       // If points are too close, add an offset to the text
-      if (distance < 5000) { // Customize threshold for "closeness"
-        textOffsetX += 10; // Adjust horizontally
-        textOffsetY += 10; // Adjust vertically
+      if (distance < 50) { // Customize threshold for "closeness"
+        textOffsetX += 25; // Adjust horizontally
+        textOffsetY += 25; // Adjust vertically
       }
     }
   });
