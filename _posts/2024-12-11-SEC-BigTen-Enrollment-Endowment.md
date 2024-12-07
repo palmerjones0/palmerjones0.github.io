@@ -93,7 +93,8 @@ toc: false
     },
     yaxis: {
       title: { text: "Endowment (Billions)", font: { color: "#ffffff" } },
-      tickfont: { color: "#ffffff" }
+      tickfont: { color: "#ffffff" },
+      type: 'log' // Logarithmic scale for y-axis
     },
     plot_bgcolor: "#333333",
     paper_bgcolor: "#333333",
