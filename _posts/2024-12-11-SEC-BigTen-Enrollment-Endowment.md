@@ -17,7 +17,7 @@ date: 2024-12-11 10:00:00 EST
 published: true
 timezone: America/New_York
 search: true
-toc: true
+toc: false
 ---
 
 <script src="https://cdn.plot.ly/plotly-2.20.0.min.js"></script>
@@ -72,7 +72,10 @@ toc: true
       size: 12,
       color: d.color,
       symbol: d.shape,
-      stroke: "black"
+      line: {
+        color: "black", // Black outline
+        width: 1       // Thin outline
+      }
     },
     name: d.school,
     text: `School: ${d.school}<br>Conference: ${d.conference}<br>Enrollment: ${d.enrollment}<br>Endowment: $${d.endowment}B<br>Type: ${d.type}`
