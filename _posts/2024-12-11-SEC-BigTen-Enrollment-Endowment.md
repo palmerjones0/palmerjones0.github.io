@@ -100,7 +100,13 @@ toc: false
     },
     plot_bgcolor: "#333333",
     paper_bgcolor: "#333333",
-    showlegend: false // Add this line to disable the legend
+    showlegend: false, // Add this line to disable the legend
+    margin: {
+      l: 25, // Left margin
+      r: 25, // Right margin
+      t: 25, // Top margin
+      b: 25  // Bottom margin
+    }
   };
 
   // Render the chart
