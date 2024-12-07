@@ -76,16 +76,15 @@ toc: false
       width: 1        // Thin outline
     }
   },
-  name: d.school,
-  text: [
-    `School: ${d.school}<br>Conference: ${d.conference}<br>Enrollment: ${d.enrollment}<br>Endowment: $${d.endowment}B<br>Type: ${d.type}`
-  ],  // This provides more detailed information for the tooltip
+  name: d.school,  // Use this for legend label
+  text: [d.school],  // Show just the school name on the point
   textfont: {
     color: d.color,
     size: 10
   },
-  textposition: 'top center',  // Keeps the label as just the school name
-  hoverinfo: 'text',  // Show the detailed info in the tooltip
+  textposition: 'top center',  // Position for the label
+  hoverinfo: 'text',  // Only show the text (hovertext)
+  hovertext: `School: ${d.school}<br>Conference: ${d.conference}<br>Enrollment: ${d.enrollment}<br>Endowment: $${d.endowment}B<br>Type: ${d.type}` // Detailed info in the tooltip
 }));
 
 // Layout with dark theme customization
