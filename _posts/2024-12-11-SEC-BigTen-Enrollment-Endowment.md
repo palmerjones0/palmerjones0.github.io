@@ -89,12 +89,14 @@ toc: false
     },
     xaxis: {
       title: { text: "Enrollment", font: { color: "#ffffff" } },
-      tickfont: { color: "#ffffff" }
+      tickfont: { color: "#ffffff" },
+      gridcolor: "#888888" // Set gridline color to medium gray
     },
     yaxis: {
       title: { text: "Endowment (Billions)", font: { color: "#ffffff" } },
       tickfont: { color: "#ffffff" },
-      type: 'log' // Logarithmic scale for y-axis
+      type: 'log', // Logarithmic scale for y-axis
+      gridcolor: "#888888" // Set gridline color to medium gray
     },
     plot_bgcolor: "#333333",
     paper_bgcolor: "#333333",
