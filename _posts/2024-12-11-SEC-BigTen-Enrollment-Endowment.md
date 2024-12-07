@@ -109,8 +109,8 @@ const layout = {
   showlegend: false,
   margin: {
     l: 30,
-    r: 20,
-    t: 20,
+    r: 15,
+    t: 30,
     b: 30
   }
 };
