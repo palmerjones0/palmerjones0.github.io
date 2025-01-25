@@ -37,7 +37,7 @@ David Neeleman, Breeze’s founder and CEO, tapped into his deep aviation expert
 
 From my perspective, simplicity is where Breeze truly excels. Their **website and app are intuitive**, and their fare bundles are transparent. This eliminates the surprise fees or confusion at the check-in counter that often accompany discount airlines, leading to a calmer, more enjoyable travel experience. Dare I say it's a *breeze?*
 
-Every flight includes **free Wi-Fi**, setting Breeze apart in the budget airline sector. Additionally, their rewards program is straightforward and easy to use—no complex tiers or blackout dates. This commitment to simplicity means passengers board relaxed, and it reflects in the overall vibe of the flights I’ve taken from RDU.
+Most flight packages include **free Wi-Fi**, setting Breeze apart in the budget airline sector. Additionally, their rewards program is straightforward and easy to use—no complex tiers or blackout dates. This commitment to simplicity means passengers board relaxed, and it reflects in the overall vibe of the flights I’ve taken from RDU.
 
 ## Looking Ahead
 
