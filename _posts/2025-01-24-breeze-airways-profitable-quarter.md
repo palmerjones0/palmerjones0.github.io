@@ -31,13 +31,13 @@ Breeze took a smart approach to growth by **leasing smaller Embraer 190/195 plan
 
 ## 2. Leveraged Their Network
 
-David Neeleman, Breeze’s founder and CEO, tapped into his deep aviation expertise and relationships to build a robust operation. For instance, **leasing planes from Azul Brazilian Airlines**, which Neeleman also founded, was a key strategic move that helped to bridge a capacity gap. Moreover, Neeleman recruited [key leaders](https://www.flybreeze.com/page/leadership) from successful competitors, especially Allegiant, which has profitally operated using a similar point-to-point route strategy.
+David Neeleman, Breeze’s founder and CEO, tapped into his deep aviation expertise and relationships to build a robust operation. For instance, **leasing planes from Azul Brazilian Airlines**, which Neeleman also founded, was a key strategic move that helped to bridge a capacity gap. Moreover, Neeleman recruited [key leaders](https://www.flybreeze.com/page/leadership) from successful competitors, especially Allegiant, which has profitally operated using a similar point-to-point network strategy.
 
 ## 3. Kept It Simple
 
 From my perspective, simplicity is where Breeze truly excels. Their **website and app are intuitive**, and their fare bundles are transparent. This eliminates the surprise fees or confusion at the check-in counter that often accompany discount airlines, leading to a calmer, more enjoyable travel experience. Dare I say it's a *breeze?*
 
-Most flight packages include **free Wi-Fi**, setting Breeze apart in the budget airline sector. Additionally, their rewards program is straightforward and easy to use—no complex tiers or blackout dates. This commitment to simplicity means passengers board relaxed, and it reflects in the overall vibe of the flights I’ve taken from RDU.
+Most flight packages include **free Wi-Fi**, setting Breeze apart in the budget airline sector. Additionally, their rewards program is straightforward and easy to use, with no complex tiers or blackout dates. This commitment to simplicity means passengers board relaxed, and it reflects in the overall vibe of the flights I’ve taken from RDU.
 
 ## Looking Ahead
 
