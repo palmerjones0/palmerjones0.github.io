@@ -35,7 +35,7 @@ DeepSeek’s **R1 model** employs **Chain of Thought (CoT)** reasoning, helping 
 Unlike OpenAI’s models, DeepSeek is **open source**, meaning anyone can [download](https://huggingface.co/deepseek-ai/DeepSeek-V3) and experiment with it. This transparency allows developers to explore its capabilities freely.
 
 ### The Caveats
-Despite its promising claims, there’s skepticism about DeepSeek’s actual efficiency and performance. Still, the results have been promising enough to **impact the US tech market**. Also worth keeping in mind, as a **Chinese company**, DeepSeek operates under **government censorship**, which may limit its access to certain information and influence its outputs.
+Despite its promising claims, there’s skepticism about DeepSeek’s actual efficiency and performance. Still, the results have been promising enough to **deflate the US tech market**. Also worth keeping in mind, as a **Chinese company**, DeepSeek operates under **government censorship**, which may limit its access to certain information and influence its outputs.
 
 ### Final Thoughts
 DeepSeek’s advancements in AI efficiency and openness are exciting, but questions remain about its true performance and potential limitations. What do you think?
