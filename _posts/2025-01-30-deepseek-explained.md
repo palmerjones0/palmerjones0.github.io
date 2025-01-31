@@ -29,7 +29,7 @@ DeepSeek’s V3 model claims to deliver performance similar to ChatGPT-4o while 
 The key innovation behind DeepSeek’s efficiency is its use of **Mixture of Experts (MoE)**. Unlike a single massive model handling all tasks, MoE uses **specialized smaller models**, making it far more efficient while maintaining high performance.
 
 ### Chain of Thought for Complex Reasoning
-DeepSeek’s **R1 model** employs **Chain of Thought (CoT)** reasoning, helping it tackle multi-step problems more effectively. This is similar to OpenAI’s GPT-4o’s approach, enabling better logical processing compared to base AI models.
+DeepSeek’s **R1 model** employs **Chain of Thought (CoT)** reasoning, helping it tackle multi-step problems more effectively. This is similar to OpenAI’s o1 model, enabling better logical processing compared to base AI models.
 
 ### Open Source Advantage
 Unlike OpenAI’s models, DeepSeek is **open source**, meaning anyone can [download](https://huggingface.co/deepseek-ai/DeepSeek-V3) and experiment with it. This transparency allows developers to explore its capabilities freely.
