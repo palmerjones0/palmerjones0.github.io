@@ -20,7 +20,7 @@ search: true
 toc: true
 ---
 
-DeepSeek has recently gained attention for its AI models that rival industry leaders like OpenAI’s ChatGPT. This post, inspired by [Computerphile’s video](https://www.youtube.com/watch?v=gY4Z-9QlZ64), breaks down what makes DeepSeek unique in just 60 seconds.
+DeepSeek has recently gained attention for its AI models that rival industry leaders like OpenAI’s ChatGPT. This post, inspired by [Computerphile’s video](https://www.youtube.com/watch?v=gY4Z-9QlZ64), breaks down what makes DeepSeek unique in a minute or less.
 
 ### Doing More with Less
 DeepSeek’s V3 model claims to deliver performance similar to ChatGPT-4o while using only **$5 million** in hardware and electricity, far less than the rumored **$100 million** spent by some competitors. The energy demand for AI is so high that some companies are even considering [nuclear reactors](https://www.cnbc.com/2024/12/28/why-microsoft-amazon-google-and-meta-are-betting-on-nuclear-power.html) to power their data centers.
@@ -35,7 +35,7 @@ DeepSeek’s **R1 model** employs **Chain of Thought (CoT)** reasoning, helping 
 Unlike OpenAI’s models, DeepSeek is **open source**, meaning anyone can [download](https://huggingface.co/deepseek-ai/DeepSeek-V3) and experiment with it. This transparency allows developers to explore its capabilities freely.
 
 ### The Caveats
-Despite its promising claims, there’s skepticism about DeepSeek’s actual efficiency and performance. Additionally, as a **Chinese company**, DeepSeek operates under **government censorship**, which may limit its access to certain information and influence its outputs.
+Despite its promising claims, there’s skepticism about DeepSeek’s actual efficiency and performance. Still, the results have been promising enough to **impact the US tech market**. Also worth keeping in mind, as a **Chinese company**, DeepSeek operates under **government censorship**, which may limit its access to certain information and influence its outputs.
 
 ### Final Thoughts
 DeepSeek’s advancements in AI efficiency and openness are exciting, but questions remain about its true performance and potential limitations. What do you think?
