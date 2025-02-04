@@ -455,9 +455,9 @@ permalink: /out_of_conference_v2/
       }
     }
     #home-button {
-        position: absolute;
-        top: 20px;
-        left: 10px;
+        position: fixed;
+        bottom: 20px;    /* Places the button 20px from the bottom */
+        left: 10px;      /* 10px from the left edge */
         padding: 9px 12px;
         background-color: #007bff;
         color: white;
