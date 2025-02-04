@@ -122,6 +122,17 @@ permalink: /games-by-palmer/
                 <h3>Heads or Tails</h3>
             </a>
         </div>
+    <div class="container">
+        <div class="tile">
+            <a href="/heads_or_tails">
+                <div class="tile-image">
+                    <img src="/assets/images/heads-or-tails.jpg" alt="Game 2" class="static">
+                    <img src="/assets/images/heads-or-tails.gif" alt="Game 2" class="animated">
+                    <div class="notification-bubble" id="heads-or-tails-plays">0 Plays</div>
+                </div>
+                <h3>Heads or Tails</h3>
+            </a>
+        </div>
 
         <!-- More game tiles -->
     </div>
