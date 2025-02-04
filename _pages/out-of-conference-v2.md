@@ -455,16 +455,15 @@ permalink: /out_of_conference_v2/
       }
     }
     #home-button {
-        position: fixed;
-        bottom: 20px;    /* Places the button 20px from the bottom */
-        left: 10px;      /* 10px from the left edge */
+        display: block;
+        margin: 20px auto;  /* Centers the button and adds vertical spacing */
         padding: 9px 12px;
         background-color: #007bff;
         color: white;
         border: none;
         border-radius: 5px;
         cursor: pointer;
-        font-family: Helvetica;
+        font-family: Helvetica, sans-serif;
         font-size: 16px;
         text-decoration: none;
         transition: background-color 0.3s ease;
@@ -538,8 +537,8 @@ permalink: /out_of_conference_v2/
   <footer class="footer">
     <p>Version 2.0 &nbsp; | &nbsp; Palmer Jones 2024</p>
     <p>This game is not endorsed by, affiliated with, or sponsored by any of the schools or institutions referenced within. All school names are used for informational purposes only. Any trademarks or intellectual property associated with these schools remain the property of their respective owners.</p>
-    <a href="/" id="home-button">palmercjones.com</a>
   </footer>
+  <a href="/" id="home-button">palmercjones.com</a>
   <!-- External Libraries -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
