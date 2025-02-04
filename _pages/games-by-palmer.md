@@ -130,7 +130,7 @@ permalink: /games-by-palmer/
                     <img src="/assets/images/out-of-conference-v2.gif" alt="Game 2" class="animated">
                     <div class="notification-bubble" id="out-of-conference-v2-plays">0 Plays</div>
                 </div>
-                <h3>Heads or Tails</h3>
+                <h3>Out of Conference</h3>
             </a>
         </div>
 
