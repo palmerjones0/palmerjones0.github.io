@@ -455,7 +455,8 @@ permalink: /out_of_conference_v2/
       }
     }
     #home-button {
-        display: block;
+        display: inline-block;
+        width: fit-content; /* Ensures the width is just enough for its content plus padding */
         margin: 20px auto;  /* Centers the button and adds vertical spacing */
         padding: 9px 12px;
         background-color: #007bff;
