@@ -180,11 +180,20 @@ permalink: /games-by-palmer/
     const dbOOCG = getFirestore(appOOCG);
 
     async function getPageViewCount() {
-        const pageViewsRef = doc(dbOOCG, 'pageViews', 'views');
+        const pageViewsRef = doc(db, 'pageViews', 'views');
         const docSnap = await getDoc(pageViewsRef);
         if (docSnap.exists()) {
             const count = docSnap.data().count;
-            document.getElementById('out-of-conference-v2-plays').innerText = `${count} Plays`;
+            document.getElementById('heads-or-tails-plays').innerText = `${count} Plays`;
+        } else {
+            console.log("No such document!");
+        }
+
+        const pageViewsRefOOCG = doc(dbOOCG, 'pageViews', 'views');
+        const docSnapOOCG = await getDoc(pageViewsRefOOCG);
+        if (docSnapOOCG.exists()) {
+            const countOOCG = docSnapOOCG.data().count;
+            document.getElementById('out-of-conference-v2-plays').innerText = `${countOOCG} Plays`;
         } else {
             console.log("No such document!");
         }
