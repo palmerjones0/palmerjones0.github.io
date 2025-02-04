@@ -124,11 +124,11 @@ permalink: /games-by-palmer/
         </div>
     <div class="container">
         <div class="tile">
-            <a href="/heads_or_tails">
+            <a href="/out_of_conference_v2">
                 <div class="tile-image">
-                    <img src="/assets/images/heads-or-tails.jpg" alt="Game 2" class="static">
-                    <img src="/assets/images/heads-or-tails.gif" alt="Game 2" class="animated">
-                    <div class="notification-bubble" id="heads-or-tails-plays">0 Plays</div>
+                    <img src="/assets/images/out-of-conference-v2.jpg" alt="Game 2" class="static">
+                    <img src="/assets/images/out-of-conference-v2.gif" alt="Game 2" class="animated">
+                    <div class="notification-bubble" id="out-of-conference-v2-plays">0 Plays</div>
                 </div>
                 <h3>Heads or Tails</h3>
             </a>
@@ -166,12 +166,26 @@ permalink: /games-by-palmer/
     const app = initializeApp(firebaseConfig);
     const db = getFirestore(app);
 
+    const firebaseConfigOOCG = {
+        apiKey: "AIzaSyDB4YKuJyBbPtQRg9vtoxFmuILAi_x_vbA",
+        authDomain: "out-of-conference-game.firebaseapp.com",
+        projectId: "out-of-conference-game",
+        storageBucket: "out-of-conference-game.firebasestorage.app",
+        messagingSenderId: "520736595883",
+        appId: "1:520736595883:web:5b7d0f5f3d41dce6a27cee",
+        measurementId: "G-Q5BM808KE5"
+    };
+
+    // Initialize Firebase
+    const appOOCG = initializeApp(firebaseConfigOOCG);
+    const dbOOCG = getFirestore(appOOCG);
+
     async function getPageViewCount() {
-        const pageViewsRef = doc(db, 'pageViews', 'views');
+        const pageViewsRef = doc(dbOOCG, 'pageViews', 'views');
         const docSnap = await getDoc(pageViewsRef);
         if (docSnap.exists()) {
             const count = docSnap.data().count;
-            document.getElementById('heads-or-tails-plays').innerText = `${count} Plays`;
+            document.getElementById('out-of-conference-v2-plays').innerText = `${count} Plays`;
         } else {
             console.log("No such document!");
         }
