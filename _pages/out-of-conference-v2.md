@@ -454,6 +454,24 @@ permalink: /out_of_conference_v2/
         box-shadow: none;
       }
     }
+    #home-button {
+        position: absolute;
+        top: 20px;
+        left: 10px;
+        padding: 9px 12px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-family: Helvetica;
+        font-size: 16px;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+    }
+    #home-button:hover {
+        background-color: #0056b3;
+    }
   </style>
 </head>
 <body>
@@ -520,6 +538,7 @@ permalink: /out_of_conference_v2/
   <footer class="footer">
     <p>Version 2.0 &nbsp; | &nbsp; Palmer Jones 2024</p>
     <p>This game is not endorsed by, affiliated with, or sponsored by any of the schools or institutions referenced within. All school names are used for informational purposes only. Any trademarks or intellectual property associated with these schools remain the property of their respective owners.</p>
+    <a href="/" id="home-button">palmercjones.com</a>
   </footer>
   <!-- External Libraries -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
