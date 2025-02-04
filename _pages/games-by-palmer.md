@@ -122,7 +122,6 @@ permalink: /games-by-palmer/
                 <h3>Heads or Tails</h3>
             </a>
         </div>
-    <div class="container">
         <div class="tile">
             <a href="/out_of_conference_v2">
                 <div class="tile-image">
