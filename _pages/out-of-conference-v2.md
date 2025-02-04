@@ -1,3 +1,4 @@
+---
 layout: none
 permalink: /out_of_conference_v2/
 ---
