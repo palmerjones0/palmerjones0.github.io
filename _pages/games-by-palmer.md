@@ -149,60 +149,64 @@ permalink: /games-by-palmer/
 
 <script type="module">
     import { initializeApp } from "https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js";
-    import { getFirestore, doc, getDoc } from "https://www.gstatic.com/firebasejs/9.0.0/firebase-firestore.js";
+import { getFirestore, doc, getDoc } from "https://www.gstatic.com/firebasejs/9.0.0/firebase-firestore.js";
 
-    const firebaseConfig = {
-        apiKey: "AIzaSyBGae8deSU51k9rDow583pqvqN7vwPnjYA",
-        authDomain: "heads-or-tails-8ba1c.firebaseapp.com",
-        projectId: "heads-or-tails-8ba1c",
-        storageBucket: "heads-or-tails-8ba1c.appspot.com",
-        messagingSenderId: "1001684783591",
-        appId: "1:1001684783591:web:e2b2b82e83180f565b2d42",
-        measurementId: "G-RZZJCFC87X"
-    };
+// Configuration for Project 1
+const firebaseConfig = {
+    apiKey: "AIzaSyBGae8deSU51k9rDow583pqvqN7vwPnjYA",
+    authDomain: "heads-or-tails-8ba1c.firebaseapp.com",
+    projectId: "heads-or-tails-8ba1c",
+    storageBucket: "heads-or-tails-8ba1c.appspot.com",
+    messagingSenderId: "1001684783591",
+    appId: "1:1001684783591:web:e2b2b82e83180f565b2d42",
+    measurementId: "G-RZZJCFC87X"
+};
 
-    // Initialize Firebase
-    const app = initializeApp(firebaseConfig);
-    const db = getFirestore(app);
+// Initialize Project 1
+const app = initializeApp(firebaseConfig, "heads-or-tails");
+const db = getFirestore(app);
 
-    const firebaseConfigOOCG = {
-        apiKey: "AIzaSyDB4YKuJyBbPtQRg9vtoxFmuILAi_x_vbA",
-        authDomain: "out-of-conference-game.firebaseapp.com",
-        projectId: "out-of-conference-game",
-        storageBucket: "out-of-conference-game.firebasestorage.app",
-        messagingSenderId: "520736595883",
-        appId: "1:520736595883:web:5b7d0f5f3d41dce6a27cee",
-        measurementId: "G-Q5BM808KE5"
-    };
+// Configuration for Project 2
+const firebaseConfigOOCG = {
+    apiKey: "AIzaSyDB4YKuJyBbPtQRg9vtoxFmuILAi_x_vbA",
+    authDomain: "out-of-conference-game.firebaseapp.com",
+    projectId: "out-of-conference-game",
+    storageBucket: "out-of-conference-game.firebasestorage.app",
+    messagingSenderId: "520736595883",
+    appId: "1:520736595883:web:5b7d0f5f3d41dce6a27cee",
+    measurementId: "G-Q5BM808KE5"
+};
 
-    // Initialize Firebase
-    const appOOCG = initializeApp(firebaseConfigOOCG);
-    const dbOOCG = getFirestore(appOOCG);
+// Initialize Project 2
+const appOOCG = initializeApp(firebaseConfigOOCG, "out-of-conference-game");
+const dbOOCG = getFirestore(appOOCG);
 
-    async function getPageViewCount() {
-        const pageViewsRef = doc(db, 'pageViews', 'views');
-        const docSnap = await getDoc(pageViewsRef);
-        if (docSnap.exists()) {
-            const count = docSnap.data().count;
-            document.getElementById('heads-or-tails-plays').innerText = `${count} Plays`;
-        } else {
-            console.log("No such document!");
-        }
-
-        const pageViewsRefOOCG = doc(dbOOCG, 'pageViews', 'views');
-        const docSnapOOCG = await getDoc(pageViewsRefOOCG);
-        if (docSnapOOCG.exists()) {
-            const countOOCG = docSnapOOCG.data().count;
-            document.getElementById('out-of-conference-v2-plays').innerText = `${countOOCG} Plays`;
-        } else {
-            console.log("No such document!");
-        }
+async function getPageViewCount() {
+    // Fetch data from Project 1
+    const pageViewsRef = doc(db, 'pageViews', 'views');
+    const docSnap = await getDoc(pageViewsRef);
+    if (docSnap.exists()) {
+        const count = docSnap.data().count;
+        document.getElementById('heads-or-tails-plays').innerText = `${count} Plays`;
+    } else {
+        console.log("No such document in Project 1!");
     }
 
-    // Call this function when the page loads
-    window.onload = function() {
-        getPageViewCount();
-    };
+    // Fetch data from Project 2
+    const pageViewsRefOOCG = doc(dbOOCG, 'pageViews', 'views');
+    const docSnapOOCG = await getDoc(pageViewsRefOOCG);
+    if (docSnapOOCG.exists()) {
+        const countOOCG = docSnapOOCG.data().count;
+        document.getElementById('out-of-conference-v2-plays').innerText = `${countOOCG} Plays`;
+    } else {
+        console.log("No such document in Project 2!");
+    }
+}
+
+// Call this function when the page loads
+window.onload = function() {
+    getPageViewCount();
+};
 
 </script>
 </body>
