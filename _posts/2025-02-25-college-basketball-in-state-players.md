@@ -19,8 +19,6 @@ toc: true
 
 College basketball offers a wide range of statistics to analyze team performance. One interesting metric is the **percent of in-state minutes played**, highlighting how programs rely on local talent.
 
-<!--more-->
-
 According to **ESPN.com** data as of **February 23rd, 2025**, *Purdue* leads all teams with **67.35%** of its minutes played by in-state players. As a proud Purdue alum, it’s exciting to see the program excel in developing and utilizing local talent.
 
 ### Top Teams by Percent In-State Minutes
