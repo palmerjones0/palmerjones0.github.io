@@ -52,6 +52,10 @@ Fine-tuning means taking a general-purpose AI and **teaching it further on speci
 
 Hallucination occurs when an AI **confidently gives incorrect or nonsensical information**. Imagine asking a confident colleague for directions, only to later realize they had no idea and just guessed convincingly. Remember, **AI doesn't know if it's right or wrong!**
 
+### Model Context Protocol (MCP)
+
+The Model Context Protocol (MCP) is an open standard developed by Anthropic to enable seamless integration between AI systems, particularly large language models (LLMs), and **external data sources and tools**. By providing a universal protocol, MCP allows AI applications to access and interact with diverse datasets and functionalities **without the need for custom integrations** for each source. ​
+
 ### Reinforcement Learning with Human Feedback (RLHF)
 
 RLHF means humans guide the AI’s learning by rating its responses, teaching the AI to better match human expectations. It’s like training a new employee by giving **regular feedback on their work** to improve over time.
