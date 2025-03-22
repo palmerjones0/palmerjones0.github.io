@@ -59,7 +59,3 @@ RLHF means humans guide the AI’s learning by rating its responses, teaching th
 ### Context Window
 
 The context window is **how much recent conversation or instruction the model can "remember"** when generating responses. It’s similar to your working memory—there’s only so much you can keep track of at once before you have to reference notes or past conversations. Having a very large context window can help generate more useful responses at the cost of more more processing power.
-
----
-
-Let me know of any of these were useful!
