@@ -1,6 +1,5 @@
-
 ---
-title: "Common LLM Terminology... Simplified!"
+title: "Common LLM Terminology Simplified"
 layout: single
 excerpt_separator: "<!--more-->"
 categories:
