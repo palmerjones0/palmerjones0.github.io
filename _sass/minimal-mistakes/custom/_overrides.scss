@@ -1,0 +1,41 @@
+/* Custom overrides for Minimal Mistakes theme */
+
+/* Remove underlines from post titles */
+.page__content {
+  .archive__item-title {
+    a {
+      text-decoration: none !important;
+      border-bottom: none !important;
+      
+      &::before,
+      &::after {
+        display: none !important;
+      }
+      
+      &:link,
+      &:visited,
+      &:hover,
+      &:active {
+        text-decoration: none !important;
+        border-bottom: none !important;
+      }
+    }
+  }
+  
+  .list__item {
+    .archive__item-title {
+      a {
+        text-decoration: none !important;
+        border-bottom: none !important;
+      }
+    }
+  }
+}
+
+/* Additional override for any missed elements */
+.archive__item-title {
+  a {
+    text-decoration: none !important;
+    border-bottom: none !important;
+  }
+}
